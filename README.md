@@ -45,6 +45,7 @@ The pipeline is defined in [`topic-mastery-roadmap/workflow.yml`](https://github
 |---------|--------|-----------|------------|
 | [AI in Fullstack Healthcare Software](ai-fullstack-healthcare-software/) | 77 | 165 | 450 |
 | [Epic EHR Integrations in Software](epic-ehr-integration-software/) | 65 | 196 | 480 |
+| [Modern Python Flask API Development](modern-python-flask-api-development/) | 104 | 88 | 310 |
 
 
 ## Repository Structure

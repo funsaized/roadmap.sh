@@ -1,0 +1,6639 @@
+{
+  "metadata": {
+    "title": "Modern Python Flask API Development",
+    "description": "A comprehensive mastery roadmap covering Python foundations, HTTP/REST, Flask core, request handling, databases, authentication, API design, testing, background tasks, security, deployment, performance, and advanced architectural patterns.",
+    "totalEstimatedHours": 310,
+    "nodeCount": 104,
+    "edgeCount": 140,
+    "resourceCount": 88,
+    "generatedAt": "2026-03-21",
+    "layoutVersion": "1.0"
+  },
+  "layout": {
+    "totalWidth": 1400,
+    "totalHeight": 4610,
+    "sectionGap": 80,
+    "nodeGap": 20,
+    "columnCount": 4,
+    "nodeWidth": 260,
+    "nodeHeight": 56,
+    "expandedNodeHeight": 72
+  },
+  "colorScheme": {
+    "difficulty": {
+      "beginner": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "intermediate": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "advanced": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "expert": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      }
+    },
+    "sections": {
+      "section-1": {
+        "bg": "#F1F8E9",
+        "border": "#8BC34A"
+      },
+      "section-2": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0"
+      },
+      "section-3": {
+        "bg": "#E0F7FA",
+        "border": "#00ACC1"
+      },
+      "section-4": {
+        "bg": "#FFF8E1",
+        "border": "#FFB300"
+      },
+      "section-5": {
+        "bg": "#FCE4EC",
+        "border": "#E91E63"
+      }
+    },
+    "checkpoint": {
+      "bg": "#F3E5F5",
+      "border": "#9C27B0",
+      "text": "#4A148C"
+    },
+    "milestone": {
+      "bg": "#FFF8E1",
+      "border": "#FFC107",
+      "icon": "🏆"
+    }
+  },
+  "progressTracking": {
+    "nodeCheckbox": true,
+    "sectionProgressBar": true,
+    "overallPercentage": true,
+    "prerequisiteLocking": true,
+    "storageKey": "flask-roadmap-progress"
+  },
+  "resourcePanel": {
+    "maxVisible": 10,
+    "showMoreEnabled": true,
+    "sortOrder": [
+      "recommended",
+      "course",
+      "video",
+      "book",
+      "exercise",
+      "documentation",
+      "repository"
+    ],
+    "badges": [
+      "difficulty",
+      "format",
+      "cost",
+      "estimatedTime"
+    ]
+  },
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Foundations",
+      "description": "Python language fundamentals and HTTP/REST protocol knowledge required before Flask development.",
+      "difficulty": "beginner",
+      "estimatedHours": 35,
+      "displayOrder": 1,
+      "y": 40,
+      "height": 910,
+      "color": {
+        "bg": "#F1F8E9",
+        "border": "#8BC34A"
+      },
+      "subSections": [
+        {
+          "id": "sub-1-1",
+          "title": "Package & Environment",
+          "nodeIds": [
+            "node-1",
+            "node-2",
+            "node-3",
+            "node-4",
+            "node-5"
+          ]
+        },
+        {
+          "id": "sub-1-2",
+          "title": "Python Language",
+          "nodeIds": [
+            "node-6",
+            "node-7",
+            "node-8",
+            "node-9",
+            "node-10"
+          ]
+        },
+        {
+          "id": "sub-1-3",
+          "title": "Project Setup",
+          "nodeIds": [
+            "node-11",
+            "node-12"
+          ]
+        },
+        {
+          "id": "sub-1-4",
+          "title": "HTTP & REST",
+          "nodeIds": [
+            "node-13",
+            "node-14",
+            "node-15",
+            "node-16",
+            "node-17",
+            "node-18",
+            "node-19",
+            "node-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Flask Core",
+      "description": "Core Flask framework concepts: application factory, routing, blueprints, contexts, and configuration.",
+      "difficulty": "beginner",
+      "estimatedHours": 23,
+      "displayOrder": 2,
+      "y": 1030,
+      "height": 528,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0"
+      },
+      "subSections": [
+        {
+          "id": "sub-2-1",
+          "title": "App Basics",
+          "nodeIds": [
+            "node-21",
+            "node-22",
+            "node-23",
+            "node-30"
+          ]
+        },
+        {
+          "id": "sub-2-2",
+          "title": "Organization",
+          "nodeIds": [
+            "node-24",
+            "node-29",
+            "node-31"
+          ]
+        },
+        {
+          "id": "sub-2-3",
+          "title": "Contexts & Config",
+          "nodeIds": [
+            "node-25",
+            "node-26",
+            "node-27",
+            "node-28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "API Development",
+      "description": "Building robust APIs with request validation, database integration, authentication, documentation, and testing.",
+      "difficulty": "intermediate",
+      "estimatedHours": 112,
+      "displayOrder": 3,
+      "y": 1638,
+      "height": 1308,
+      "color": {
+        "bg": "#E0F7FA",
+        "border": "#00ACC1"
+      },
+      "subSections": [
+        {
+          "id": "sub-3-1",
+          "title": "Request Handling",
+          "nodeIds": [
+            "node-32",
+            "node-33",
+            "node-34",
+            "node-35",
+            "node-36",
+            "node-37",
+            "node-38",
+            "node-39"
+          ]
+        },
+        {
+          "id": "sub-3-2",
+          "title": "Database",
+          "nodeIds": [
+            "node-40",
+            "node-41",
+            "node-42",
+            "node-43",
+            "node-44",
+            "node-45",
+            "node-46",
+            "node-47",
+            "node-48"
+          ]
+        },
+        {
+          "id": "sub-3-3",
+          "title": "Authentication",
+          "nodeIds": [
+            "node-49",
+            "node-50",
+            "node-51",
+            "node-52",
+            "node-53",
+            "node-54",
+            "node-55"
+          ]
+        },
+        {
+          "id": "sub-3-4",
+          "title": "API Design",
+          "nodeIds": [
+            "node-56",
+            "node-57",
+            "node-58",
+            "node-59",
+            "node-60",
+            "node-61",
+            "node-62"
+          ]
+        },
+        {
+          "id": "sub-3-5",
+          "title": "Testing",
+          "nodeIds": [
+            "node-63",
+            "node-64",
+            "node-65",
+            "node-66",
+            "node-67"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Production Engineering",
+      "description": "Production-grade concerns: background tasks, security hardening, deployment, and observability.",
+      "difficulty": "advanced",
+      "estimatedHours": 90,
+      "displayOrder": 4,
+      "y": 3026,
+      "height": 1018,
+      "color": {
+        "bg": "#FFF8E1",
+        "border": "#FFB300"
+      },
+      "subSections": [
+        {
+          "id": "sub-4-1",
+          "title": "Background Tasks",
+          "nodeIds": [
+            "node-68",
+            "node-69",
+            "node-70",
+            "node-71",
+            "node-72"
+          ]
+        },
+        {
+          "id": "sub-4-2",
+          "title": "Security",
+          "nodeIds": [
+            "node-73",
+            "node-74",
+            "node-75",
+            "node-76",
+            "node-77",
+            "node-78"
+          ]
+        },
+        {
+          "id": "sub-4-3",
+          "title": "Deployment",
+          "nodeIds": [
+            "node-79",
+            "node-80",
+            "node-81",
+            "node-82"
+          ]
+        },
+        {
+          "id": "sub-4-4",
+          "title": "Observability",
+          "nodeIds": [
+            "node-83",
+            "node-84",
+            "node-85",
+            "node-86",
+            "node-87",
+            "node-88",
+            "node-89",
+            "node-90",
+            "node-91"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Architecture",
+      "description": "Expert-level architectural patterns for complex Flask-based systems.",
+      "difficulty": "expert",
+      "estimatedHours": 50,
+      "displayOrder": 5,
+      "y": 4124,
+      "height": 406,
+      "color": {
+        "bg": "#FCE4EC",
+        "border": "#E91E63"
+      },
+      "subSections": [
+        {
+          "id": "sub-5-1",
+          "title": "Design Patterns",
+          "nodeIds": [
+            "node-92",
+            "node-93",
+            "node-94",
+            "node-100"
+          ]
+        },
+        {
+          "id": "sub-5-2",
+          "title": "Advanced Architecture",
+          "nodeIds": [
+            "node-95",
+            "node-96",
+            "node-97",
+            "node-98",
+            "node-99"
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-1",
+      "title": "Virtual Environments (venv)",
+      "description": "Isolated Python environments for dependency management",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 1,
+      "x": 135,
+      "y": 146,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "venv",
+        "activate",
+        "deactivate",
+        "isolation"
+      ],
+      "resources": [
+        {
+          "id": "res-1",
+          "nodeId": "node-1",
+          "title": "Corey Schafer — Python Virtual Environments Tutorial",
+          "url": "https://www.youtube.com/watch?v=APOPm01BVrk",
+          "type": "video",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "16 min",
+          "platform": "YouTube",
+          "isRecommended": true
+        },
+        {
+          "id": "res-83",
+          "nodeId": "node-1",
+          "title": "Exercism Python Track",
+          "url": "https://exercism.org/tracks/python",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "20 hours",
+          "platform": "Exercism",
+          "isRecommended": true
+        },
+        {
+          "id": "res-2",
+          "nodeId": "node-1",
+          "title": "Python venv Official Docs",
+          "url": "https://docs.python.org/3/library/venv.html",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Python Docs",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-2",
+      "title": "Package Management (pip)",
+      "description": "Installing and managing Python packages from PyPI",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 2,
+      "x": 425,
+      "y": 146,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-1"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "pip install",
+        "requirements.txt",
+        "pip freeze"
+      ],
+      "resources": [
+        {
+          "id": "res-88",
+          "nodeId": "node-2",
+          "title": "100 Days of Code: Python (Angela Yu)",
+          "url": "https://www.udemy.com/course/100-days-of-code/",
+          "type": "course",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "paid",
+          "estimatedTime": "60 hours",
+          "platform": "Udemy",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-3",
+      "title": "Dependency Locking (pip-tools)",
+      "description": "Reproducible builds with pinned transitive dependencies",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 3,
+      "x": 715,
+      "y": 146,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-2"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "pip-compile",
+        "pip-sync",
+        "requirements.in"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-4",
+      "title": "Modern Package Management (Poetry/uv)",
+      "description": "All-in-one tools with lockfiles and pyproject.toml support",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 4,
+      "x": 1005,
+      "y": 146,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-2"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Poetry workflow",
+        "uv fast installs",
+        "pyproject.toml standard"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "poetry",
+        "uv",
+        "pyproject.toml",
+        "lockfiles"
+      ],
+      "resources": [
+        {
+          "id": "res-3",
+          "nodeId": "node-4",
+          "title": "Poetry Documentation",
+          "url": "https://python-poetry.org/docs/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Poetry",
+          "isRecommended": true
+        },
+        {
+          "id": "res-4",
+          "nodeId": "node-4",
+          "title": "ArjanCodes — Python Project Setup",
+          "url": "https://www.youtube.com/watch?v=QMY-OkckDwo",
+          "type": "video",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "YouTube",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-5",
+      "title": "pyproject.toml",
+      "description": "Modern Python project configuration standard (PEP 518/621)",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 5,
+      "x": 570,
+      "y": 238,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-2"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "PEP 518",
+        "PEP 621",
+        "build system",
+        "project metadata"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-6",
+      "title": "Type Hints and typing Module",
+      "description": "Static type annotations for variables, parameters, and return values",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 6,
+      "x": 135,
+      "y": 360,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": true,
+      "subTopics": [
+        "Basic annotations",
+        "typing module",
+        "Python 3.10+ syntax"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "type annotations",
+        "Optional",
+        "Union",
+        "List",
+        "Dict",
+        "TypedDict",
+        "Protocol"
+      ],
+      "resources": [
+        {
+          "id": "res-5",
+          "nodeId": "node-6",
+          "title": "ArjanCodes — Python Type Hints Are Awesome",
+          "url": "https://www.youtube.com/watch?v=dgBCEB2jVU0",
+          "type": "video",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "YouTube",
+          "isRecommended": true
+        },
+        {
+          "id": "res-6",
+          "nodeId": "node-6",
+          "title": "Real Python — Python Type Checking Guide",
+          "url": "https://realpython.com/python-type-checking/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Real Python",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-7",
+      "title": "Static Type Checking (mypy)",
+      "description": "Compile-time type verification for Python code",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 7,
+      "x": 425,
+      "y": 360,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-6"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "mypy",
+        "strict mode",
+        "pyproject.toml config",
+        "type stubs"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-8",
+      "title": "First-Class Functions and Closures",
+      "description": "Functions as objects, higher-order functions, variable capture",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 8,
+      "x": 715,
+      "y": 360,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "first-class functions",
+        "higher-order functions",
+        "closures",
+        "scope"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-9",
+      "title": "Decorators",
+      "description": "Function wrapping for cross-cutting behavior using @syntax",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 9,
+      "x": 1005,
+      "y": 360,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-8"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Simple decorators",
+        "Parameterized decorators",
+        "Class-based decorators"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "@decorator",
+        "functools.wraps",
+        "decorator arguments",
+        "stacking"
+      ],
+      "resources": [
+        {
+          "id": "res-7",
+          "nodeId": "node-9",
+          "title": "Corey Schafer — Decorators",
+          "url": "https://www.youtube.com/watch?v=FsAPt_9Bf3U",
+          "type": "video",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "YouTube",
+          "isRecommended": true
+        },
+        {
+          "id": "res-8",
+          "nodeId": "node-9",
+          "title": "Real Python — Primer on Python Decorators",
+          "url": "https://realpython.com/primer-on-python-decorators/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Real Python",
+          "isRecommended": true
+        },
+        {
+          "id": "res-9",
+          "nodeId": "node-9",
+          "title": "Fluent Python, 2nd Ed. — Ch. 7 (Decorators & Closures)",
+          "url": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "3 hours",
+          "platform": "O'Reilly",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-10",
+      "title": "Context Managers",
+      "description": "Resource management with the with statement",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 10,
+      "x": 570,
+      "y": 452,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "__enter__",
+        "__exit__",
+        "@contextmanager",
+        "with statement"
+      ],
+      "resources": [
+        {
+          "id": "res-10",
+          "nodeId": "node-10",
+          "title": "Real Python — Context Managers and the with Statement",
+          "url": "https://realpython.com/python-with-statement/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Real Python",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-11",
+      "title": "Python Project Structure",
+      "description": "Package layout, __init__.py, module organization conventions",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 11,
+      "x": 425,
+      "y": 574,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-5"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "packages",
+        "__init__.py",
+        "relative imports",
+        "src layout"
+      ],
+      "resources": [
+        {
+          "id": "res-11",
+          "nodeId": "node-11",
+          "title": "cookiecutter-flask — Project Template",
+          "url": "https://github.com/cookiecutter-flask/cookiecutter-flask",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-12",
+      "title": "Environment Variable Configuration",
+      "description": "Externalizing configuration with dotenv and decouple",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 12,
+      "x": 715,
+      "y": 574,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "os.environ",
+        "python-dotenv",
+        "python-decouple",
+        ".env files"
+      ],
+      "resources": [
+        {
+          "id": "res-87",
+          "nodeId": "node-12",
+          "title": "python-dotenv (PyPI)",
+          "url": "https://pypi.org/project/python-dotenv/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "15 min",
+          "platform": "PyPI",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-13",
+      "title": "HTTP Protocol Basics",
+      "description": "Request/response cycle, URLs, HTTP messages",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 13,
+      "x": 135,
+      "y": 696,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "request-response",
+        "URLs",
+        "HTTP messages",
+        "HTTP versions"
+      ],
+      "resources": [
+        {
+          "id": "res-12",
+          "nodeId": "node-13",
+          "title": "MDN Web Docs — HTTP",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "MDN",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-14",
+      "title": "HTTP Methods",
+      "description": "GET, POST, PUT, PATCH, DELETE and their semantics",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 14,
+      "x": 425,
+      "y": 696,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-13"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "resources": [
+        {
+          "id": "res-13",
+          "nodeId": "node-14",
+          "title": "httpbin.org",
+          "url": "https://httpbin.org/",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "httpbin",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-15",
+      "title": "HTTP Status Codes",
+      "description": "1xx-5xx categories and common codes for API development",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 15,
+      "x": 715,
+      "y": 696,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-13"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "200 OK",
+        "201 Created",
+        "400 Bad Request",
+        "401 Unauthorized",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-16",
+      "title": "HTTP Headers",
+      "description": "Request/response metadata and content negotiation",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 16,
+      "x": 1005,
+      "y": 696,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-13"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "Content-Type",
+        "Authorization",
+        "Accept",
+        "Cache-Control",
+        "CORS headers"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-17",
+      "title": "Idempotency and Safety",
+      "description": "Method properties critical for reliable API design",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 17,
+      "x": 135,
+      "y": 772,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-14"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "safe methods",
+        "idempotent methods",
+        "idempotency keys"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-18",
+      "title": "REST Architectural Constraints",
+      "description": "Six constraints: client-server, statelessness, cacheability, uniform interface, layered, code-on-demand",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 18,
+      "x": 425,
+      "y": 772,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-13"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Client-server",
+        "Statelessness",
+        "Cacheability",
+        "Uniform interface",
+        "Layered system"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "statelessness",
+        "uniform interface",
+        "HATEOAS",
+        "cacheability"
+      ],
+      "resources": [
+        {
+          "id": "res-15",
+          "nodeId": "node-18",
+          "title": "RESTful Web APIs — Richardson & Ruby",
+          "url": "https://www.oreilly.com/library/view/restful-web-apis/9781449359713/",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "20 hours",
+          "platform": "O'Reilly",
+          "isRecommended": true
+        },
+        {
+          "id": "res-14",
+          "nodeId": "node-18",
+          "title": "RESTful API Tutorial (restfulapi.net)",
+          "url": "https://restfulapi.net/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "restfulapi.net",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-19",
+      "title": "JSON Data Format",
+      "description": "Structure, data types, Python json module integration",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 19,
+      "x": 715,
+      "y": 772,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "JSON syntax",
+        "serialization",
+        "deserialization",
+        "jsonify"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-20",
+      "title": "API Design Principles",
+      "description": "Resource-based URLs, naming conventions, versioning basics",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 20,
+      "x": 1005,
+      "y": 772,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-14",
+        "node-18"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "resource naming",
+        "plural nouns",
+        "nested resources",
+        "error format"
+      ],
+      "resources": [
+        {
+          "id": "res-84",
+          "nodeId": "node-20",
+          "title": "Microsoft REST API Design Guidelines",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Microsoft",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-1",
+      "title": "✓ Python & HTTP Foundations Complete",
+      "description": "Verify understanding of Python fundamentals and HTTP/REST concepts before proceeding to Flask.",
+      "difficulty": "beginner",
+      "sectionId": "section-1",
+      "displayOrder": 999,
+      "x": 540,
+      "y": 874,
+      "width": 320,
+      "height": 56,
+      "color": {
+        "bg": "#F3E5F5",
+        "border": "#9C27B0",
+        "text": "#4A148C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": "✓"
+      },
+      "prerequisites": [
+        "node-9",
+        "node-18",
+        "node-20"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "estimatedHours": 0,
+      "keyConcepts": [
+        "self-assessment"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-21",
+      "title": "Flask Application Object",
+      "description": "Central app instance for configuration and route registration",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 1,
+      "x": 135,
+      "y": 1136,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-11",
+        "node-13"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "Flask(__name__)",
+        "app instance",
+        "route registration"
+      ],
+      "resources": [
+        {
+          "id": "res-16",
+          "nodeId": "node-21",
+          "title": "Flask Official Quickstart",
+          "url": "https://flask.palletsprojects.com/en/stable/quickstart/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Flask Docs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-22",
+      "title": "Application Factory Pattern",
+      "description": "create_app() function for configurable app creation",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 2,
+      "x": 425,
+      "y": 1136,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-21",
+        "node-12"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "create_app()",
+        "factory function",
+        "extension init_app",
+        "multiple configs"
+      ],
+      "resources": [
+        {
+          "id": "res-22",
+          "nodeId": "node-22",
+          "title": "Flask Mega-Tutorial (2024 Edition)",
+          "url": "https://courses.miguelgrinberg.com/p/flask-mega-tutorial",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "paid",
+          "estimatedTime": "11 hours",
+          "platform": "miguelgrinberg.com",
+          "isRecommended": true
+        },
+        {
+          "id": "res-17",
+          "nodeId": "node-22",
+          "title": "Flask Official — Application Factories",
+          "url": "https://flask.palletsprojects.com/en/stable/patterns/appfactories/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Flask Docs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-18",
+          "nodeId": "node-22",
+          "title": "Real Python — Build a Scalable Flask Web Project",
+          "url": "https://realpython.com/flask-project/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Real Python",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-23",
+      "title": "Routing and URL Rules",
+      "description": "URL-to-view mapping with variable rules and converters",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 3,
+      "x": 715,
+      "y": 1136,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-21",
+        "node-14"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "@app.route",
+        "variable rules",
+        "url_for",
+        "converters"
+      ],
+      "resources": [
+        {
+          "id": "res-19",
+          "nodeId": "node-23",
+          "title": "Corey Schafer — Flask Tutorial Series",
+          "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH",
+          "type": "video",
+          "difficulty": "beginner",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "4 hours",
+          "platform": "YouTube",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-30",
+      "title": "WSGI Basics",
+      "description": "Flask as a WSGI application, development server limitations",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 10,
+      "x": 1005,
+      "y": 1136,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-21"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "WSGI interface",
+        "Werkzeug",
+        "dev server",
+        "wsgi.py"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-24",
+      "title": "Blueprints",
+      "description": "Modular application organization with URL prefixing",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 4,
+      "x": 280,
+      "y": 1258,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-22",
+        "node-23"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Blueprint creation",
+        "Registration",
+        "URL prefixing",
+        "Nested blueprints"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "Blueprint()",
+        "url_prefix",
+        "nested blueprints",
+        "feature directories"
+      ],
+      "resources": [
+        {
+          "id": "res-20",
+          "nodeId": "node-24",
+          "title": "Real Python — How to Use Flask Blueprints",
+          "url": "https://realpython.com/flask-blueprint/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Real Python",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-29",
+      "title": "Extension Initialization Pattern",
+      "description": "Two-phase init_app() for factory compatibility",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 9,
+      "x": 570,
+      "y": 1258,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-22"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "init_app()",
+        "extensions.py",
+        "two-phase init"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-31",
+      "title": "Error Handling Basics",
+      "description": "@errorhandler, abort(), custom error pages",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 11,
+      "x": 860,
+      "y": 1258,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-23"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "@errorhandler",
+        "abort()",
+        "HTTPException",
+        "custom error pages"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-25",
+      "title": "Application Context",
+      "description": "current_app and g proxy objects for app-level data",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 5,
+      "x": 135,
+      "y": 1396,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-22"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "current_app",
+        "g object",
+        "app_context()",
+        "context lifecycle"
+      ],
+      "resources": [
+        {
+          "id": "res-21",
+          "nodeId": "node-25",
+          "title": "TestDriven.io — Flask Contexts (Advanced)",
+          "url": "https://testdriven.io/blog/flask-contexts-advanced/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "TestDriven.io",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-26",
+      "title": "Request Context",
+      "description": "request and session proxy objects for per-request data",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 6,
+      "x": 425,
+      "y": 1396,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-25"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "request proxy",
+        "session proxy",
+        "context stack",
+        "RuntimeError debugging"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-27",
+      "title": "Configuration Management",
+      "description": "app.config, config classes, environment-based loading",
+      "difficulty": "beginner",
+      "sectionId": "section-2",
+      "displayOrder": 7,
+      "x": 715,
+      "y": 1396,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-22",
+        "node-12"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "app.config",
+        "from_object",
+        "config classes",
+        "SECRET_KEY"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-28",
+      "title": "Flask CLI and Click Integration",
+      "description": "Custom commands and command groups with Click",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 8,
+      "x": 1005,
+      "y": 1396,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-22"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "@app.cli.command",
+        "click.argument",
+        "click.option",
+        "command groups"
+      ],
+      "resources": []
+    },
+    {
+      "id": "checkpoint-2",
+      "title": "✓ Flask Core Mastery",
+      "description": "Confirm ability to create factory-pattern Flask apps with blueprints and proper context handling.",
+      "difficulty": "intermediate",
+      "sectionId": "section-2",
+      "displayOrder": 999,
+      "x": 540,
+      "y": 1482,
+      "width": 320,
+      "height": 56,
+      "color": {
+        "bg": "#F3E5F5",
+        "border": "#9C27B0",
+        "text": "#4A148C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": "✓"
+      },
+      "prerequisites": [
+        "node-24",
+        "node-26",
+        "node-27"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "estimatedHours": 0,
+      "keyConcepts": [
+        "self-assessment"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-32",
+      "title": "Flask Request Object",
+      "description": "Accessing query params, JSON body, form data, files, headers",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 1,
+      "x": 135,
+      "y": 1744,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-26"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "request.args",
+        "request.json",
+        "request.form",
+        "request.files",
+        "request.headers"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-33",
+      "title": "Marshmallow Validation",
+      "description": "Schema-based serialization, deserialization, and field validators",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 2,
+      "x": 425,
+      "y": 1744,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-32",
+        "node-6"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Schema definition",
+        "Field types and validators",
+        "Custom validators",
+        "Nested schemas",
+        "Pre/post processing"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "Schema",
+        "fields",
+        "load/dump",
+        "@validates",
+        "nested schemas",
+        "pre/post hooks"
+      ],
+      "resources": [
+        {
+          "id": "res-24",
+          "nodeId": "node-33",
+          "title": "REST APIs with Flask and Python — Udemy",
+          "url": "https://www.udemy.com/course/rest-api-flask-and-python/",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "paid",
+          "estimatedTime": "17 hours",
+          "platform": "Udemy",
+          "isRecommended": true
+        },
+        {
+          "id": "res-23",
+          "nodeId": "node-33",
+          "title": "Marshmallow Official Documentation",
+          "url": "https://marshmallow.readthedocs.io/en/stable/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-34",
+      "title": "Pydantic Validation",
+      "description": "Type-hint-based validation with BaseModel and Field constraints",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 3,
+      "x": 715,
+      "y": 1744,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-32",
+        "node-6"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "BaseModel",
+        "Field",
+        "@field_validator",
+        "model_dump",
+        "Flask-Pydantic"
+      ],
+      "resources": [
+        {
+          "id": "res-25",
+          "nodeId": "node-34",
+          "title": "Pydantic v2 Documentation",
+          "url": "https://docs.pydantic.dev/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Pydantic",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-35",
+      "title": "Webargs Library",
+      "description": "Request argument parsing from multiple locations",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 4,
+      "x": 1005,
+      "y": 1744,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-33"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "use_args",
+        "use_kwargs",
+        "location support",
+        "error handling"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-36",
+      "title": "Flask-Smorest Integration",
+      "description": "Marshmallow + webargs + automatic OpenAPI documentation",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 5,
+      "x": 135,
+      "y": 1836,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-33",
+        "node-35",
+        "node-24"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "@blp.arguments",
+        "@blp.response",
+        "auto-OpenAPI",
+        "Swagger UI"
+      ],
+      "resources": [
+        {
+          "id": "res-27",
+          "nodeId": "node-36",
+          "title": "Flask-Smorest Documentation",
+          "url": "https://flask-smorest.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-37",
+      "title": "Structured Error Handling",
+      "description": "Custom exceptions, consistent JSON errors, ValidationError handling",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 6,
+      "x": 425,
+      "y": 1836,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-31",
+        "node-33"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "custom exceptions",
+        "JSON error format",
+        "ValidationError",
+        "error codes"
+      ],
+      "resources": [
+        {
+          "id": "res-26",
+          "nodeId": "node-37",
+          "title": "Better Stack — Flask Error Handling Guide",
+          "url": "https://betterstack.com/community/guides/scaling-python/flask-error-handling/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Better Stack",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-38",
+      "title": "Request Hooks",
+      "description": "before_request, after_request, teardown_request lifecycle callbacks",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 7,
+      "x": 715,
+      "y": 1836,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-26"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "before_request",
+        "after_request",
+        "teardown_request",
+        "g object",
+        "blueprint hooks"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-39",
+      "title": "File Upload Handling",
+      "description": "Multipart uploads, secure filenames, size limits",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 8,
+      "x": 1005,
+      "y": 1836,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-32"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "request.files",
+        "secure_filename",
+        "MAX_CONTENT_LENGTH",
+        "MIME validation"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-40",
+      "title": "SQLAlchemy Architecture",
+      "description": "Core vs ORM layers, Flask-SQLAlchemy wrapper",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 9,
+      "x": 135,
+      "y": 1958,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-29"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "Core vs ORM",
+        "Flask-SQLAlchemy",
+        "db.init_app",
+        "connection URI"
+      ],
+      "resources": [
+        {
+          "id": "res-28",
+          "nodeId": "node-40",
+          "title": "SQLAlchemy 2.0 Official Documentation",
+          "url": "https://docs.sqlalchemy.org/en/20/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "5 hours",
+          "platform": "SQLAlchemy",
+          "isRecommended": true
+        },
+        {
+          "id": "res-29",
+          "nodeId": "node-40",
+          "title": "Flask-SQLAlchemy Documentation",
+          "url": "https://flask-sqlalchemy.readthedocs.io/en/stable/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-41",
+      "title": "Model Definition",
+      "description": "db.Model, column types, constraints, and indexes",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 10,
+      "x": 425,
+      "y": 1958,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-40"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "db.Model",
+        "db.Column",
+        "types",
+        "primary_key",
+        "nullable",
+        "index"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-42",
+      "title": "Relationship Types",
+      "description": "One-to-many, many-to-many, one-to-one, self-referential relationships",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 11,
+      "x": 715,
+      "y": 1958,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-41"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "One-to-many",
+        "Many-to-many",
+        "One-to-one",
+        "Self-referential",
+        "Association objects"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "db.relationship",
+        "db.ForeignKey",
+        "backref",
+        "back_populates",
+        "secondary"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-43",
+      "title": "Lazy Loading Strategies",
+      "description": "select, joined, subquery, selectin, dynamic, raise loading modes",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 12,
+      "x": 1005,
+      "y": 1958,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-42"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "lazy parameter",
+        "select",
+        "joined",
+        "selectin",
+        "dynamic",
+        "raise"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-44",
+      "title": "N+1 Query Problem and Eager Loading",
+      "description": "Detection and resolution with joinedload/selectinload",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 13,
+      "x": 135,
+      "y": 2050,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-43"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "N+1 detection",
+        "joinedload",
+        "selectinload",
+        "subqueryload",
+        ".options()"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-45",
+      "title": "Query Construction and Filtering",
+      "description": "Building queries with filter, order_by, pagination",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 14,
+      "x": 425,
+      "y": 2050,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-41"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "filter()",
+        "filter_by()",
+        "order_by()",
+        "paginate()",
+        "first()",
+        "all()"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-46",
+      "title": "Session and Transaction Management",
+      "description": "add, commit, rollback, flush, scoped sessions, savepoints",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 15,
+      "x": 715,
+      "y": 2050,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-40"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "db.session",
+        "commit",
+        "rollback",
+        "flush",
+        "begin_nested"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-47",
+      "title": "Database Migrations",
+      "description": "Alembic/Flask-Migrate schema versioning workflow",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 16,
+      "x": 1005,
+      "y": 2050,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-41"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "flask db init",
+        "flask db migrate",
+        "flask db upgrade",
+        "downgrade",
+        "data migrations"
+      ],
+      "resources": [
+        {
+          "id": "res-30",
+          "nodeId": "node-47",
+          "title": "Flask-Migrate Documentation",
+          "url": "https://flask-migrate.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-31",
+          "nodeId": "node-47",
+          "title": "DigitalOcean — Flask-SQLAlchemy Migrations",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "DigitalOcean",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-48",
+      "title": "Connection Pooling",
+      "description": "Pool size, overflow, and recycle configuration for production",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 17,
+      "x": 570,
+      "y": 2126,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-40"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "SQLALCHEMY_POOL_SIZE",
+        "pool_recycle",
+        "max_overflow"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-49",
+      "title": "Password Hashing",
+      "description": "bcrypt, Argon2, PBKDF2 with Werkzeug security helpers",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 18,
+      "x": 135,
+      "y": 2248,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-41"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "generate_password_hash",
+        "check_password_hash",
+        "bcrypt",
+        "Argon2"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-50",
+      "title": "JWT Authentication",
+      "description": "Token structure, Flask-JWT-Extended, access/refresh tokens",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 19,
+      "x": 425,
+      "y": 2248,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-38",
+        "node-37"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Token creation",
+        "Route protection",
+        "Custom claims",
+        "Error handling"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "JWT structure",
+        "Flask-JWT-Extended",
+        "@jwt_required",
+        "access tokens",
+        "claims"
+      ],
+      "resources": [
+        {
+          "id": "res-33",
+          "nodeId": "node-50",
+          "title": "JWT Auth Crash Course (Ssali Jonathan)",
+          "url": "https://www.youtube.com/watch?v=aX-ayOb_Aho",
+          "type": "video",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "YouTube",
+          "isRecommended": true
+        },
+        {
+          "id": "res-32",
+          "nodeId": "node-50",
+          "title": "Flask-JWT-Extended Documentation",
+          "url": "https://flask-jwt-extended.readthedocs.io/en/stable/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-34",
+          "nodeId": "node-50",
+          "title": "JWT.io Introduction",
+          "url": "https://jwt.io/introduction",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "JWT.io",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-51",
+      "title": "Token Lifecycle Management",
+      "description": "Refresh tokens, rotation, blocklisting, fresh tokens",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 20,
+      "x": 715,
+      "y": 2248,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-50"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "refresh tokens",
+        "token rotation",
+        "blocklisting",
+        "fresh tokens",
+        "reuse detection"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-52",
+      "title": "OAuth 2.0 and OpenID Connect",
+      "description": "Authorization flows, Authlib, social login integration",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 21,
+      "x": 1005,
+      "y": 2248,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-50"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "authorization code flow",
+        "OIDC",
+        "Authlib",
+        "client credentials",
+        "scopes"
+      ],
+      "resources": [
+        {
+          "id": "res-35",
+          "nodeId": "node-52",
+          "title": "Authlib Flask OAuth Client Docs",
+          "url": "https://docs.authlib.org/en/latest/client/flask.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Authlib",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-53",
+      "title": "API Key Authentication",
+      "description": "Key generation, hashed storage, validation decorators",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 22,
+      "x": 280,
+      "y": 2340,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-38"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "uuid4",
+        "hashed storage",
+        "X-API-Key header",
+        "per-key permissions"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-54",
+      "title": "Role-Based Access Control (RBAC)",
+      "description": "User-Role-Permission models, custom decorators, JWT claims",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 23,
+      "x": 570,
+      "y": 2340,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-50",
+        "node-42"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Database modeling",
+        "Custom decorators",
+        "JWT-based RBAC",
+        "External auth services"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "role models",
+        "@role_required",
+        "permission checking",
+        "JWT role claims"
+      ],
+      "resources": [
+        {
+          "id": "res-36",
+          "nodeId": "node-54",
+          "title": "Auth0 Flask RBAC Code Sample",
+          "url": "https://developer.auth0.com/resources/code-samples/api/flask/basic-role-based-access-control",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Auth0",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-55",
+      "title": "CSRF Protection",
+      "description": "Token-based CSRF protection for cookie-based auth",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 24,
+      "x": 860,
+      "y": 2340,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-50"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "Flask-WTF",
+        "SameSite cookies",
+        "CSRF tokens"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-56",
+      "title": "OpenAPI Specification",
+      "description": "Standardized API description format (OAS 3.1)",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 25,
+      "x": 135,
+      "y": 2478,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-20"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "OAS 3.1",
+        "paths",
+        "components",
+        "schemas",
+        "YAML/JSON"
+      ],
+      "resources": [
+        {
+          "id": "res-37",
+          "nodeId": "node-56",
+          "title": "OpenAPI Specification 3.1",
+          "url": "https://spec.openapis.org/oas/v3.1.0.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "OpenAPI",
+          "isRecommended": true
+        },
+        {
+          "id": "res-38",
+          "nodeId": "node-56",
+          "title": "OpenAPI Best Practices",
+          "url": "https://learn.openapis.org/best-practices.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "OpenAPI",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-57",
+      "title": "Swagger UI and ReDoc",
+      "description": "Interactive documentation renderers for OpenAPI specs",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 26,
+      "x": 425,
+      "y": 2478,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-56"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "Swagger UI",
+        "ReDoc",
+        "try it out",
+        "three-panel layout"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-58",
+      "title": "Flask-RESTX",
+      "description": "Namespaces, models, and automatic Swagger generation",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 27,
+      "x": 715,
+      "y": 2478,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-24",
+        "node-56"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "namespaces",
+        "api.model",
+        "@marshal_with",
+        "@ns.doc",
+        "@ns.expect"
+      ],
+      "resources": [
+        {
+          "id": "res-39",
+          "nodeId": "node-58",
+          "title": "Flask-RESTX Documentation",
+          "url": "https://flask-restx.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-59",
+      "title": "Pagination Strategies",
+      "description": "Offset, cursor, and keyset pagination with trade-offs",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 28,
+      "x": 1005,
+      "y": 2478,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-45"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Offset-based",
+        "Cursor-based",
+        "Keyset pagination"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "offset pagination",
+        "cursor pagination",
+        "keyset pagination",
+        "deep paging"
+      ],
+      "resources": [
+        {
+          "id": "res-40",
+          "nodeId": "node-59",
+          "title": "Moesif — REST API Filtering, Sorting, Pagination",
+          "url": "https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Moesif",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-60",
+      "title": "Filtering and Sorting",
+      "description": "Query parameter-based data filtering with field whitelisting",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 29,
+      "x": 280,
+      "y": 2570,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-45"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "filter params",
+        "sort params",
+        "field whitelisting",
+        "SQLAlchemy integration"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-61",
+      "title": "API Versioning",
+      "description": "URI, header, query param, and content negotiation strategies",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 30,
+      "x": 570,
+      "y": 2570,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-24",
+        "node-56"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "URI versioning",
+        "header versioning",
+        "blueprint prefixes",
+        "deprecation"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-62",
+      "title": "HATEOAS and Hypermedia",
+      "description": "Response links for API discoverability (REST Level 3)",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 31,
+      "x": 860,
+      "y": 2570,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-18"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "hypermedia links",
+        "next/prev/first/last",
+        "discoverability"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-63",
+      "title": "Flask Test Client",
+      "description": "app.test_client() for simulated HTTP requests without live server",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 32,
+      "x": 135,
+      "y": 2692,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-22"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "test_client()",
+        "client.get",
+        "client.post",
+        "response.json"
+      ],
+      "resources": [
+        {
+          "id": "res-41",
+          "nodeId": "node-63",
+          "title": "Flask Official Testing Documentation",
+          "url": "https://flask.palletsprojects.com/en/stable/testing/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Flask Docs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-64",
+      "title": "Pytest Fixtures and conftest.py",
+      "description": "Setup/teardown, scopes, shared fixtures for Flask testing",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 33,
+      "x": 425,
+      "y": 2692,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-63"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "@pytest.fixture",
+        "conftest.py",
+        "scopes",
+        "yield fixtures",
+        "parametrize"
+      ],
+      "resources": [
+        {
+          "id": "res-43",
+          "nodeId": "node-64",
+          "title": "Python Testing with pytest (Brian Okken)",
+          "url": "https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "15 hours",
+          "platform": "Pragmatic Bookshelf",
+          "isRecommended": true
+        },
+        {
+          "id": "res-42",
+          "nodeId": "node-64",
+          "title": "TestDriven.io — Testing Flask Applications with Pytest",
+          "url": "https://testdriven.io/blog/flask-pytest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "TestDriven.io",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-65",
+      "title": "Test Database Isolation",
+      "description": "In-memory SQLite, transactional rollback, Factory Boy",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 34,
+      "x": 715,
+      "y": 2692,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-64",
+        "node-46"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "In-memory DB",
+        "Transaction rollback",
+        "Factory Boy",
+        "Dedicated test DB"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "in-memory SQLite",
+        "transactional rollback",
+        "Factory Boy",
+        "test fixtures"
+      ],
+      "resources": [
+        {
+          "id": "res-44",
+          "nodeId": "node-65",
+          "title": "Factory Boy Documentation",
+          "url": "https://factoryboy.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-66",
+      "title": "Mocking External Services",
+      "description": "unittest.mock, responses library, requests-mock",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 35,
+      "x": 1005,
+      "y": 2692,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-64"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "@patch",
+        "MagicMock",
+        "responses.add",
+        "requests-mock",
+        "vcrpy"
+      ],
+      "resources": [
+        {
+          "id": "res-45",
+          "nodeId": "node-66",
+          "title": "responses library (GitHub)",
+          "url": "https://github.com/getsentry/responses",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-67",
+      "title": "Coverage Measurement",
+      "description": "pytest-cov, branch coverage, CI integration with thresholds",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 36,
+      "x": 570,
+      "y": 2784,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-64"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "pytest-cov",
+        "branch coverage",
+        "HTML reports",
+        "coverage thresholds"
+      ],
+      "resources": []
+    },
+    {
+      "id": "checkpoint-3",
+      "title": "✓ API Development Proficiency",
+      "description": "Validate full-stack API skills: validation, database, auth, docs, and testing.",
+      "difficulty": "intermediate",
+      "sectionId": "section-3",
+      "displayOrder": 999,
+      "x": 540,
+      "y": 2870,
+      "width": 320,
+      "height": 56,
+      "color": {
+        "bg": "#F3E5F5",
+        "border": "#9C27B0",
+        "text": "#4A148C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": "✓"
+      },
+      "prerequisites": [
+        "node-36",
+        "node-47",
+        "node-54",
+        "node-67"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "estimatedHours": 0,
+      "keyConcepts": [
+        "self-assessment"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-68",
+      "title": "Message Broker Architecture",
+      "description": "Producer-broker-worker pattern with Redis/RabbitMQ",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 1,
+      "x": 135,
+      "y": 3132,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-25"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "message brokers",
+        "Redis",
+        "RabbitMQ",
+        "producer-consumer"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-69",
+      "title": "Celery Fundamentals",
+      "description": "Tasks, workers, Beat scheduler, Flask factory integration",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 2,
+      "x": 425,
+      "y": 3132,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-68",
+        "node-22"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Task definition",
+        "Worker management",
+        "Flask integration",
+        "Beat scheduler"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "@shared_task",
+        "celery worker",
+        "celery beat",
+        "FlaskTask",
+        "make_celery.py"
+      ],
+      "resources": [
+        {
+          "id": "res-48",
+          "nodeId": "node-69",
+          "title": "The Definitive Guide to Celery and Flask",
+          "url": "https://testdriven.io/courses/flask-celery/",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "video",
+          "cost": "paid",
+          "estimatedTime": "10 hours",
+          "platform": "TestDriven.io",
+          "isRecommended": true
+        },
+        {
+          "id": "res-46",
+          "nodeId": "node-69",
+          "title": "Flask — Background Tasks with Celery",
+          "url": "https://flask.palletsprojects.com/en/stable/patterns/celery/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Flask Docs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-47",
+          "nodeId": "node-69",
+          "title": "TestDriven.io — Asynchronous Tasks with Flask and Celery",
+          "url": "https://testdriven.io/blog/flask-and-celery/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "TestDriven.io",
+          "isRecommended": true
+        },
+        {
+          "id": "res-49",
+          "nodeId": "node-69",
+          "title": "miguelgrinberg/flask-celery-example",
+          "url": "https://github.com/miguelgrinberg/flask-celery-example",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-70",
+      "title": "Task Invocation and Canvas",
+      "description": "delay(), apply_async(), chain, group, chord workflows",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 3,
+      "x": 715,
+      "y": 3132,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-69"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "delay()",
+        "apply_async()",
+        "chain",
+        "group",
+        "chord",
+        "starmap"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-71",
+      "title": "Retry and Failure Handling",
+      "description": "Exponential backoff, jitter, idempotency, acks_late, time limits",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 4,
+      "x": 1005,
+      "y": 3132,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-69"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "autoretry_for",
+        "retry_backoff",
+        "jitter",
+        "acks_late",
+        "soft_time_limit",
+        "idempotency"
+      ],
+      "resources": [
+        {
+          "id": "res-50",
+          "nodeId": "node-71",
+          "title": "Celery Best Practices (Khashtamov)",
+          "url": "https://khashtamov.com/en/celery-best-practices-practical-approach/",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Blog",
+          "isRecommended": true
+        },
+        {
+          "id": "res-51",
+          "nodeId": "node-71",
+          "title": "5 Tips for Production Celery Tasks (Wolt)",
+          "url": "https://careers.wolt.com/en/blog/tech/5-tips-for-writing-production-ready-celery-tasks",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Wolt Engineering",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-72",
+      "title": "Flask Async Views",
+      "description": "async def routes with asyncio for concurrent I/O (Flask 2.0+)",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 5,
+      "x": 570,
+      "y": 3224,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-23"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "async def",
+        "await",
+        "asyncio.gather",
+        "WSGI limitations"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-73",
+      "title": "OWASP API Security Top 10",
+      "description": "Framework for understanding API-specific security risks",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 6,
+      "x": 135,
+      "y": 3346,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-54",
+        "node-37"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "API1-BOLA",
+        "API2-Auth",
+        "API3-Properties",
+        "API4-Resources",
+        "API5-BFLA",
+        "API8-Misconfig"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "BOLA",
+        "broken auth",
+        "mass assignment",
+        "SSRF",
+        "security misconfiguration"
+      ],
+      "resources": [
+        {
+          "id": "res-52",
+          "nodeId": "node-73",
+          "title": "OWASP API Security Top 10 Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "YouTube",
+          "isRecommended": true
+        },
+        {
+          "id": "res-82",
+          "nodeId": "node-73",
+          "title": "PortSwigger Web Security Academy",
+          "url": "https://portswigger.net/web-security",
+          "type": "exercise",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "10 hours",
+          "platform": "PortSwigger",
+          "isRecommended": true
+        },
+        {
+          "id": "res-53",
+          "nodeId": "node-73",
+          "title": "OWASP API Security Top 10 (2023)",
+          "url": "https://owasp.org/API-Security/editions/2023/en/0x11-t10/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "OWASP",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-74",
+      "title": "CORS Configuration",
+      "description": "Flask-CORS, origin whitelisting, preflight handling",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 7,
+      "x": 425,
+      "y": 3346,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-16",
+        "node-55"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "Flask-CORS",
+        "Access-Control headers",
+        "preflight",
+        "credentials",
+        "origin whitelist"
+      ],
+      "resources": [
+        {
+          "id": "res-54",
+          "nodeId": "node-74",
+          "title": "Flask-CORS Documentation",
+          "url": "https://flask-cors.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-75",
+      "title": "Rate Limiting",
+      "description": "Flask-Limiter with configurable strategies and Redis backend",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 8,
+      "x": 715,
+      "y": 3346,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-38",
+        "node-53"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "Flask-Limiter",
+        "fixed window",
+        "sliding window",
+        "Redis backend",
+        "per-route limits"
+      ],
+      "resources": [
+        {
+          "id": "res-55",
+          "nodeId": "node-75",
+          "title": "Flask-Limiter Documentation",
+          "url": "https://flask-limiter.readthedocs.io/en/stable/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-76",
+      "title": "Security Headers",
+      "description": "Flask-Talisman for HSTS, CSP, X-Content-Type-Options",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 9,
+      "x": 1005,
+      "y": 3346,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-16"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "Flask-Talisman",
+        "HSTS",
+        "CSP",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ],
+      "resources": [
+        {
+          "id": "res-56",
+          "nodeId": "node-76",
+          "title": "Flask-Talisman (GitHub)",
+          "url": "https://github.com/GoogleCloudPlatform/flask-talisman",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-77",
+      "title": "Secret Management",
+      "description": "From dotenv to HashiCorp Vault for production secrets",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 10,
+      "x": 425,
+      "y": 3438,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-12",
+        "node-27"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "dotenv",
+        "platform env vars",
+        "HashiCorp Vault",
+        "key rotation"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-78",
+      "title": "Dependency Vulnerability Scanning",
+      "description": "pip-audit, Bandit SAST, Safety, CI integration",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 11,
+      "x": 715,
+      "y": 3438,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-3"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "pip-audit",
+        "Bandit",
+        "Safety",
+        "pre-commit hooks",
+        "CI scanning"
+      ],
+      "resources": [
+        {
+          "id": "res-57",
+          "nodeId": "node-78",
+          "title": "pip-audit (PyPI)",
+          "url": "https://pypi.org/project/pip-audit/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "PyPI",
+          "isRecommended": true
+        },
+        {
+          "id": "res-58",
+          "nodeId": "node-78",
+          "title": "Bandit Documentation",
+          "url": "https://bandit.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-79",
+      "title": "WSGI Servers (Gunicorn)",
+      "description": "Worker processes, threading, production configuration",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 12,
+      "x": 135,
+      "y": 3560,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-30"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "gunicorn",
+        "workers",
+        "gthread",
+        "gunicorn.conf.py",
+        "max-requests"
+      ],
+      "resources": [
+        {
+          "id": "res-59",
+          "nodeId": "node-79",
+          "title": "Gunicorn Documentation",
+          "url": "https://docs.gunicorn.org/en/stable/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Gunicorn",
+          "isRecommended": true
+        },
+        {
+          "id": "res-60",
+          "nodeId": "node-79",
+          "title": "Better Stack — Gunicorn Explained",
+          "url": "https://betterstack.com/community/guides/scaling-python/gunicorn-explained/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Better Stack",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-80",
+      "title": "Docker Containerization",
+      "description": "Dockerfiles, multi-stage builds, Docker Compose stacks",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 13,
+      "x": 425,
+      "y": 3560,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-79"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Dockerfile best practices",
+        "Multi-stage builds",
+        "Docker Compose",
+        "Health checks"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "Dockerfile",
+        "multi-stage",
+        "docker-compose.yml",
+        ".dockerignore",
+        "HEALTHCHECK"
+      ],
+      "resources": [
+        {
+          "id": "res-61",
+          "nodeId": "node-80",
+          "title": "TestDriven.io — Dockerizing Flask",
+          "url": "https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "TestDriven.io",
+          "isRecommended": true
+        },
+        {
+          "id": "res-62",
+          "nodeId": "node-80",
+          "title": "nickjj/docker-flask-example",
+          "url": "https://github.com/nickjj/docker-flask-example",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-81",
+      "title": "Nginx Reverse Proxy",
+      "description": "Proxying, static files, SSL termination, load balancing",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 14,
+      "x": 715,
+      "y": 3560,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-80"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "proxy_pass",
+        "static files",
+        "SSL/TLS",
+        "Let's Encrypt",
+        "load balancing"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-82",
+      "title": "12-Factor App Methodology",
+      "description": "Twelve principles for portable, scalable SaaS applications",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 15,
+      "x": 1005,
+      "y": 3560,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-77",
+        "node-27"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "codebase",
+        "config",
+        "backing services",
+        "stateless processes",
+        "disposability",
+        "logs as streams"
+      ],
+      "resources": [
+        {
+          "id": "res-63",
+          "nodeId": "node-82",
+          "title": "12factor.net",
+          "url": "https://12factor.net/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "12factor.net",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-83",
+      "title": "Structured Logging",
+      "description": "JSON logging, correlation IDs, log aggregation",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 16,
+      "x": 135,
+      "y": 3698,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-80"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "structlog",
+        "python-json-logger",
+        "correlation IDs",
+        "request ID",
+        "stdout logging"
+      ],
+      "resources": [
+        {
+          "id": "res-64",
+          "nodeId": "node-83",
+          "title": "structlog Documentation",
+          "url": "https://www.structlog.org/en/stable/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "structlog",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-84",
+      "title": "CI/CD Pipelines",
+      "description": "GitHub Actions for automated test, build, deploy workflows",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 17,
+      "x": 425,
+      "y": 3698,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-67",
+        "node-80"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Lint/test stage",
+        "Docker build",
+        "Registry push",
+        "Deploy stage"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "GitHub Actions",
+        "workflow YAML",
+        "container registry",
+        "secrets",
+        "deployment strategies"
+      ],
+      "resources": [
+        {
+          "id": "res-65",
+          "nodeId": "node-84",
+          "title": "GitHub Actions Documentation",
+          "url": "https://docs.github.com/en/actions",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-85",
+      "title": "Cloud Deployment Strategies",
+      "description": "PaaS, IaaS, container services, serverless, Kubernetes",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 18,
+      "x": 715,
+      "y": 3698,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-80",
+        "node-81"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "PaaS (Render/Railway)",
+        "VPS (EC2/DO)",
+        "Container services",
+        "Kubernetes"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "PaaS",
+        "IaaS",
+        "Cloud Run",
+        "ECS/Fargate",
+        "Kubernetes",
+        "serverless"
+      ],
+      "resources": [
+        {
+          "id": "res-85",
+          "nodeId": "node-85",
+          "title": "Flask Official Deploying to Production",
+          "url": "https://flask.palletsprojects.com/en/stable/deploying/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Flask Docs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-86",
+      "title": "Multi-Layer Caching",
+      "description": "Flask-Caching, Redis, HTTP caching, invalidation strategies",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 19,
+      "x": 1005,
+      "y": 3698,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-48",
+        "node-69"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Application cache",
+        "Distributed cache",
+        "HTTP caching",
+        "Invalidation patterns"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "Flask-Caching",
+        "@cache.cached",
+        "Redis cache",
+        "ETag",
+        "Cache-Control",
+        "invalidation"
+      ],
+      "resources": [
+        {
+          "id": "res-66",
+          "nodeId": "node-86",
+          "title": "Flask-Caching Documentation",
+          "url": "https://flask-caching.readthedocs.io/en/latest/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "ReadTheDocs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-87",
+      "title": "Database Query Profiling",
+      "description": "SQL logging, slow query detection, EXPLAIN ANALYZE",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 20,
+      "x": 135,
+      "y": 3790,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-44",
+        "node-48"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "SQLALCHEMY_ECHO",
+        "RECORD_QUERIES",
+        "EXPLAIN ANALYZE",
+        "Flask-DebugToolbar"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-88",
+      "title": "OpenTelemetry Tracing",
+      "description": "Auto/manual instrumentation, distributed traces, exporters",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 21,
+      "x": 425,
+      "y": 3790,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-83"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Auto instrumentation",
+        "Manual spans",
+        "SQLAlchemy tracing",
+        "Jaeger/Tempo"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "FlaskInstrumentor",
+        "spans",
+        "W3C TraceContext",
+        "Jaeger",
+        "OTLP"
+      ],
+      "resources": [
+        {
+          "id": "res-68",
+          "nodeId": "node-88",
+          "title": "Cloud-Native Observability with OpenTelemetry",
+          "url": "https://subscription.packtpub.com/book/cloud-and-networking/9781801077705/",
+          "type": "book",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "15 hours",
+          "platform": "Packt",
+          "isRecommended": true
+        },
+        {
+          "id": "res-67",
+          "nodeId": "node-88",
+          "title": "OpenTelemetry Python Getting Started",
+          "url": "https://opentelemetry.io/docs/languages/python/getting-started/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "OpenTelemetry",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-89",
+      "title": "Prometheus Metrics",
+      "description": "Counters, gauges, histograms, Grafana dashboards, alerting",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 22,
+      "x": 715,
+      "y": 3790,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-83"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "prometheus-flask-exporter",
+        "metric types",
+        "PromQL",
+        "Grafana",
+        "Alertmanager"
+      ],
+      "resources": [
+        {
+          "id": "res-69",
+          "nodeId": "node-89",
+          "title": "prometheus-flask-exporter (PyPI)",
+          "url": "https://pypi.org/project/prometheus-flask-exporter/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "PyPI",
+          "isRecommended": true
+        },
+        {
+          "id": "res-70",
+          "nodeId": "node-89",
+          "title": "Prometheus PromQL Basics",
+          "url": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Prometheus",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-90",
+      "title": "Load Testing",
+      "description": "Locust/k6 for performance validation and CI integration",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 23,
+      "x": 1005,
+      "y": 3790,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-84"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "Locust",
+        "k6",
+        "RPS",
+        "latency percentiles",
+        "stress testing",
+        "CI thresholds"
+      ],
+      "resources": [
+        {
+          "id": "res-71",
+          "nodeId": "node-90",
+          "title": "Locust Documentation",
+          "url": "https://locust.io/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Locust",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-91",
+      "title": "Application Profiling",
+      "description": "cProfile, py-spy flame graphs, memory profiling",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 24,
+      "x": 570,
+      "y": 3882,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-79"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "cProfile",
+        "py-spy",
+        "flame graphs",
+        "SnakeViz",
+        "memory_profiler"
+      ],
+      "resources": [
+        {
+          "id": "res-86",
+          "nodeId": "node-91",
+          "title": "High Performance Python (Gorelick & Ozsvald)",
+          "url": "https://www.oreilly.com/library/view/high-performance-python/9781492055013/",
+          "type": "book",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "20 hours",
+          "platform": "O'Reilly",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-4",
+      "title": "✓ Production-Ready Engineer",
+      "description": "Confirm mastery of deployment, security, monitoring, and performance optimization.",
+      "difficulty": "advanced",
+      "sectionId": "section-4",
+      "displayOrder": 999,
+      "x": 540,
+      "y": 3968,
+      "width": 320,
+      "height": 56,
+      "color": {
+        "bg": "#F3E5F5",
+        "border": "#9C27B0",
+        "text": "#4A148C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": "✓"
+      },
+      "prerequisites": [
+        "node-80",
+        "node-84",
+        "node-73"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "estimatedHours": 0,
+      "keyConcepts": [
+        "self-assessment"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-92",
+      "title": "Service Layer Pattern",
+      "description": "Business logic encapsulated in service classes, thin controllers",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 1,
+      "x": 135,
+      "y": 4230,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-24",
+        "node-46"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "service classes",
+        "thin controllers",
+        "business logic separation",
+        "orchestration"
+      ],
+      "resources": [
+        {
+          "id": "res-72",
+          "nodeId": "node-92",
+          "title": "Architecture Patterns with Python (Cosmic Python)",
+          "url": "https://www.cosmicpython.com/",
+          "type": "book",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 hours",
+          "platform": "cosmicpython.com",
+          "isRecommended": true
+        },
+        {
+          "id": "res-73",
+          "nodeId": "node-92",
+          "title": "Deflating Flask Fat Routes (Leapcell)",
+          "url": "https://leapcell.io/blog/deflating-flask-fat-routes-a-guide-to-service-and-repository-layers",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Leapcell",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-93",
+      "title": "Repository Pattern",
+      "description": "Data access abstraction behind clean interfaces",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 2,
+      "x": 425,
+      "y": 4230,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-40",
+        "node-92"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "ABC interface",
+        "CRUD operations",
+        "swappable implementations",
+        "ORM decoupling"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-94",
+      "title": "Dependency Injection",
+      "description": "IoC containers, provider types, request scoping",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 3,
+      "x": 715,
+      "y": 4230,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-92",
+        "node-93"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "IoC container",
+        "python-dependency-injector",
+        "providers",
+        "wiring",
+        "scopes"
+      ],
+      "resources": [
+        {
+          "id": "res-74",
+          "nodeId": "node-94",
+          "title": "Python Dependency Injector Flask Tutorial",
+          "url": "https://python-dependency-injector.ets-labs.org/tutorials/flask.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "DI Docs",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-100",
+      "title": "Hexagonal/Clean Architecture",
+      "description": "Ports and adapters, dependency rule, layered structure",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 9,
+      "x": 1005,
+      "y": 4230,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-92",
+        "node-93",
+        "node-94"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "ports",
+        "adapters",
+        "domain core",
+        "dependency rule",
+        "concentric layers"
+      ],
+      "resources": []
+    },
+    {
+      "id": "node-95",
+      "title": "Domain-Driven Design",
+      "description": "Entities, value objects, aggregates, bounded contexts",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 4,
+      "x": 135,
+      "y": 4352,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-92"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Entities vs Value Objects",
+        "Aggregates",
+        "Bounded Contexts",
+        "Domain Services"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 8,
+      "keyConcepts": [
+        "entities",
+        "value objects",
+        "aggregates",
+        "bounded contexts",
+        "ubiquitous language"
+      ],
+      "resources": [
+        {
+          "id": "res-75",
+          "nodeId": "node-95",
+          "title": "Domain-Driven Design (Eric Evans)",
+          "url": "https://www.domainlanguage.com/ddd/",
+          "type": "book",
+          "difficulty": "expert",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "40 hours",
+          "platform": "Book",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-96",
+      "title": "Event-Driven Architecture",
+      "description": "Domain events, event bus, CQRS, event sourcing",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 5,
+      "x": 425,
+      "y": 4352,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-95",
+        "node-69"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Domain events",
+        "Message bus",
+        "CQRS",
+        "Event sourcing"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 8,
+      "keyConcepts": [
+        "domain events",
+        "event bus",
+        "event handlers",
+        "CQRS",
+        "event sourcing"
+      ],
+      "resources": [
+        {
+          "id": "res-76",
+          "nodeId": "node-96",
+          "title": "cosmicpython/code — Companion Repository",
+          "url": "https://github.com/cosmicpython/code",
+          "type": "repository",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "5 hours",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-97",
+      "title": "GraphQL with Flask",
+      "description": "Strawberry/Ariadne, resolvers, DataLoader, subscriptions",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 6,
+      "x": 715,
+      "y": 4352,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-92"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "estimatedHours": 6,
+      "keyConcepts": [
+        "Strawberry",
+        "Ariadne",
+        "resolvers",
+        "DataLoader",
+        "schema-first vs code-first"
+      ],
+      "resources": [
+        {
+          "id": "res-77",
+          "nodeId": "node-97",
+          "title": "Strawberry GraphQL Documentation",
+          "url": "https://strawberry.rocks/docs",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "Strawberry",
+          "isRecommended": true
+        },
+        {
+          "id": "res-78",
+          "nodeId": "node-97",
+          "title": "Build GraphQL API with Flask/Ariadne (LogRocket)",
+          "url": "https://blog.logrocket.com/build-graphql-api-python-flask-ariadne/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "LogRocket",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-98",
+      "title": "Microservice Decomposition",
+      "description": "Bounded context extraction, API gateway, strangler fig",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 7,
+      "x": 1005,
+      "y": 4352,
+      "width": 260,
+      "height": 72,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1.0,
+        "badge": "★",
+        "icon": "🏆"
+      },
+      "prerequisites": [
+        "node-95",
+        "node-96",
+        "node-85"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "By capability",
+        "By bounded context",
+        "Strangler fig",
+        "API gateway"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 8,
+      "keyConcepts": [
+        "decomposition strategies",
+        "API gateway",
+        "service discovery",
+        "strangler fig",
+        "database per service"
+      ],
+      "resources": [
+        {
+          "id": "res-79",
+          "nodeId": "node-98",
+          "title": "Microservice Patterns (Chris Richardson)",
+          "url": "https://www.manning.com/books/microservices-patterns",
+          "type": "book",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "25 hours",
+          "platform": "Manning",
+          "isRecommended": true
+        },
+        {
+          "id": "res-80",
+          "nodeId": "node-98",
+          "title": "Building Microservices (Sam Newman)",
+          "url": "https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/",
+          "type": "book",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "20 hours",
+          "platform": "O'Reilly",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-99",
+      "title": "Circuit Breaker Pattern",
+      "description": "Resilience pattern for inter-service calls with pybreaker",
+      "difficulty": "expert",
+      "sectionId": "section-5",
+      "displayOrder": 8,
+      "x": 570,
+      "y": 4444,
+      "width": 260,
+      "height": 56,
+      "color": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1.0,
+        "badge": null,
+        "icon": null
+      },
+      "prerequisites": [
+        "node-98"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "closed/open/half-open",
+        "pybreaker",
+        "fallback responses",
+        "fail_max",
+        "reset_timeout"
+      ],
+      "resources": [
+        {
+          "id": "res-81",
+          "nodeId": "node-99",
+          "title": "PyBreaker (PyPI)",
+          "url": "https://pypi.org/project/pybreaker/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "PyPI",
+          "isRecommended": true
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "node-1",
+      "to": "node-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2",
+      "to": "node-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2",
+      "to": "node-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2",
+      "to": "node-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5",
+      "to": "node-11",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6",
+      "to": "node-7",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8",
+      "to": "node-9",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-13",
+      "to": "node-14",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-13",
+      "to": "node-15",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-13",
+      "to": "node-16",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-14",
+      "to": "node-17",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-13",
+      "to": "node-18",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-14",
+      "to": "node-20",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-18",
+      "to": "node-20",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-11",
+      "to": "node-21",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-13",
+      "to": "node-21",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-21",
+      "to": "node-22",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-12",
+      "to": "node-22",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-21",
+      "to": "node-23",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-14",
+      "to": "node-23",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-24",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-23",
+      "to": "node-24",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-25",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-25",
+      "to": "node-26",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-27",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-12",
+      "to": "node-27",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-28",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-29",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-21",
+      "to": "node-30",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-23",
+      "to": "node-31",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-26",
+      "to": "node-32",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-32",
+      "to": "node-33",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6",
+      "to": "node-33",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-32",
+      "to": "node-34",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6",
+      "to": "node-34",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-33",
+      "to": "node-35",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-33",
+      "to": "node-36",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-35",
+      "to": "node-36",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-24",
+      "to": "node-36",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-31",
+      "to": "node-37",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-33",
+      "to": "node-37",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-26",
+      "to": "node-38",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-32",
+      "to": "node-39",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-29",
+      "to": "node-40",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-40",
+      "to": "node-41",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-41",
+      "to": "node-42",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-42",
+      "to": "node-43",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-43",
+      "to": "node-44",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-41",
+      "to": "node-45",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-40",
+      "to": "node-46",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-41",
+      "to": "node-47",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-40",
+      "to": "node-48",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-41",
+      "to": "node-49",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-38",
+      "to": "node-50",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-37",
+      "to": "node-50",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-50",
+      "to": "node-51",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-50",
+      "to": "node-52",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-38",
+      "to": "node-53",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-50",
+      "to": "node-54",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-42",
+      "to": "node-54",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-50",
+      "to": "node-55",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-20",
+      "to": "node-56",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-56",
+      "to": "node-57",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-24",
+      "to": "node-58",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-56",
+      "to": "node-58",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-45",
+      "to": "node-59",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-45",
+      "to": "node-60",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-24",
+      "to": "node-61",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-56",
+      "to": "node-61",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-18",
+      "to": "node-62",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-63",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-63",
+      "to": "node-64",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-64",
+      "to": "node-65",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-46",
+      "to": "node-65",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-64",
+      "to": "node-66",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-64",
+      "to": "node-67",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-25",
+      "to": "node-68",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-68",
+      "to": "node-69",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-22",
+      "to": "node-69",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-69",
+      "to": "node-70",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-69",
+      "to": "node-71",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-23",
+      "to": "node-72",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-54",
+      "to": "node-73",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-37",
+      "to": "node-73",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-16",
+      "to": "node-74",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-55",
+      "to": "node-74",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-38",
+      "to": "node-75",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-53",
+      "to": "node-75",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-16",
+      "to": "node-76",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-12",
+      "to": "node-77",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-27",
+      "to": "node-77",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3",
+      "to": "node-78",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-30",
+      "to": "node-79",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-79",
+      "to": "node-80",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-80",
+      "to": "node-81",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-77",
+      "to": "node-82",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-27",
+      "to": "node-82",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-80",
+      "to": "node-83",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-67",
+      "to": "node-84",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-80",
+      "to": "node-84",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-80",
+      "to": "node-85",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-81",
+      "to": "node-85",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-48",
+      "to": "node-86",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-69",
+      "to": "node-86",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-44",
+      "to": "node-87",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-48",
+      "to": "node-87",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-83",
+      "to": "node-88",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-83",
+      "to": "node-89",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-84",
+      "to": "node-90",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-79",
+      "to": "node-91",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-24",
+      "to": "node-92",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-46",
+      "to": "node-92",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-40",
+      "to": "node-93",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-92",
+      "to": "node-93",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-92",
+      "to": "node-94",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-93",
+      "to": "node-94",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-92",
+      "to": "node-95",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-95",
+      "to": "node-96",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-69",
+      "to": "node-96",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-92",
+      "to": "node-97",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-95",
+      "to": "node-98",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-96",
+      "to": "node-98",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-85",
+      "to": "node-98",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-98",
+      "to": "node-99",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-92",
+      "to": "node-100",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-93",
+      "to": "node-100",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-94",
+      "to": "node-100",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-9",
+      "to": "checkpoint-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-18",
+      "to": "checkpoint-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-20",
+      "to": "checkpoint-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-24",
+      "to": "checkpoint-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-26",
+      "to": "checkpoint-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-27",
+      "to": "checkpoint-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-36",
+      "to": "checkpoint-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-47",
+      "to": "checkpoint-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-54",
+      "to": "checkpoint-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-67",
+      "to": "checkpoint-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-80",
+      "to": "checkpoint-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-84",
+      "to": "checkpoint-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-73",
+      "to": "checkpoint-4",
+      "type": "prerequisite"
+    }
+  ]
+}
