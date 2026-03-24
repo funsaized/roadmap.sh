@@ -1,0 +1,4676 @@
+{
+  "metadata": {
+    "title": "Practical TypeScript Mastery for High-Velocity Product Development",
+    "description": "A practitioner's roadmap to mastering TypeScript for day-to-day software delivery, focused on writing safer code faster, reducing debugging time, improving refactor confidence, and scaling codebases without type debt.",
+    "totalEstimatedHours": 190,
+    "domainCount": 11,
+    "sectionCount": 6,
+    "nodeCount": 64,
+    "edgeCount": 88,
+    "resourceCount": 85,
+    "generatedAt": "2026-03-22",
+    "version": "2.0-layout"
+  },
+  "layout": {
+    "totalWidth": 1400,
+    "totalHeight": 3640,
+    "sectionGap": 80,
+    "nodeGap": 20,
+    "columnCount": 3
+  },
+  "colorScheme": {
+    "difficulty": {
+      "beginner": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "beginner-intermediate": {
+        "bg": "#E0F2F1",
+        "border": "#26A69A",
+        "text": "#00695C"
+      },
+      "intermediate": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "intermediate-advanced": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "advanced": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "expert": {
+        "bg": "#FFEBEE",
+        "border": "#F44336",
+        "text": "#C62828"
+      }
+    },
+    "sections": {
+      "section-foundations": {
+        "bg": "#F1F8E9",
+        "border": "#8BC34A",
+        "header": "#33691E"
+      },
+      "section-type-depth": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "header": "#1A237E"
+      },
+      "section-frontend": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "header": "#E65100"
+      },
+      "section-backend": {
+        "bg": "#E0F7FA",
+        "border": "#00ACC1",
+        "header": "#006064"
+      },
+      "section-tooling": {
+        "bg": "#F3E5F5",
+        "border": "#AB47BC",
+        "header": "#4A148C"
+      },
+      "section-scale": {
+        "bg": "#FBE9E7",
+        "border": "#FF5722",
+        "header": "#BF360C"
+      }
+    },
+    "special": {
+      "milestone": {
+        "bg": "#FFF8E1",
+        "border": "#FFC107",
+        "icon": "🏆"
+      },
+      "checkpoint": {
+        "bg": "#F3E5F5",
+        "border": "#9C27B0",
+        "icon": "✓"
+      },
+      "recommended": {
+        "borderWidth": 3,
+        "badge": "★"
+      },
+      "optional": {
+        "borderStyle": "dashed",
+        "opacity": 0.8
+      }
+    }
+  },
+  "sections": [
+    {
+      "id": "section-foundations",
+      "title": "Foundations",
+      "description": "Core type system mental model and compiler configuration that every TypeScript developer must internalize.",
+      "difficulty": "beginner",
+      "estimatedHours": 35,
+      "displayOrder": 1,
+      "bounds": {
+        "x": 0,
+        "y": 40,
+        "width": 1400,
+        "height": 620,
+        "color": {
+          "bg": "#F1F8E9",
+          "border": "#8BC34A",
+          "header": "#33691E"
+        }
+      },
+      "nodeCount": 13
+    },
+    {
+      "id": "section-type-depth",
+      "title": "Type System Depth",
+      "description": "Advanced type modeling patterns, runtime validation, and generic programming for building expressive, safe type systems.",
+      "difficulty": "intermediate",
+      "estimatedHours": 55,
+      "displayOrder": 2,
+      "bounds": {
+        "x": 0,
+        "y": 740,
+        "width": 1400,
+        "height": 720,
+        "color": {
+          "bg": "#E8EAF6",
+          "border": "#5C6BC0",
+          "header": "#1A237E"
+        }
+      },
+      "nodeCount": 17
+    },
+    {
+      "id": "section-frontend",
+      "title": "Frontend Workflows",
+      "description": "TypeScript integration with React and frontend tooling for type-safe component development.",
+      "difficulty": "intermediate-advanced",
+      "estimatedHours": 20,
+      "displayOrder": 3,
+      "bounds": {
+        "x": 0,
+        "y": 1540,
+        "width": 1400,
+        "height": 320,
+        "color": {
+          "bg": "#FFF3E0",
+          "border": "#FF9800",
+          "header": "#E65100"
+        }
+      },
+      "nodeCount": 6
+    },
+    {
+      "id": "section-backend",
+      "title": "Backend Workflows",
+      "description": "TypeScript patterns for Node.js APIs, databases, event systems, and end-to-end type sharing.",
+      "difficulty": "intermediate-advanced",
+      "estimatedHours": 20,
+      "displayOrder": 4,
+      "bounds": {
+        "x": 0,
+        "y": 1940,
+        "width": 1400,
+        "height": 420,
+        "color": {
+          "bg": "#E0F7FA",
+          "border": "#00ACC1",
+          "header": "#006064"
+        }
+      },
+      "nodeCount": 7
+    },
+    {
+      "id": "section-tooling",
+      "title": "Tooling and Operations",
+      "description": "Developer feedback loops, CI integration, editor ergonomics, and type-level testing.",
+      "difficulty": "intermediate",
+      "estimatedHours": 18,
+      "displayOrder": 5,
+      "bounds": {
+        "x": 0,
+        "y": 2440,
+        "width": 1400,
+        "height": 420,
+        "color": {
+          "bg": "#F3E5F5",
+          "border": "#AB47BC",
+          "header": "#4A148C"
+        }
+      },
+      "nodeCount": 8
+    },
+    {
+      "id": "section-scale",
+      "title": "Scale, Migration, and Governance",
+      "description": "Refactoring at scale, performance engineering, modern feature adoption, and team practices.",
+      "difficulty": "advanced",
+      "estimatedHours": 42,
+      "displayOrder": 6,
+      "bounds": {
+        "x": 0,
+        "y": 2940,
+        "width": 1400,
+        "height": 620,
+        "color": {
+          "bg": "#FBE9E7",
+          "border": "#FF5722",
+          "header": "#BF360C"
+        }
+      },
+      "nodeCount": 13
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-1-1",
+      "title": "Structural Typing",
+      "description": "TypeScript determines type compatibility by shape, not name. Two types with the same structure are compatible.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "duck-typing",
+        "shape-compatibility",
+        "excess-property-checking"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "nominal-vs-structural",
+        "excess-property-checks",
+        "assignment-compatibility"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-1",
+          "nodeId": "node-1-1",
+          "title": "TypeScript Handbook — The Basics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-5",
+          "nodeId": "node-1-1",
+          "title": "Total TypeScript — Beginner's Tutorial",
+          "url": "https://www.totaltypescript.com/tutorials/beginners-typescript",
+          "type": "course",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        },
+        {
+          "id": "res-69",
+          "nodeId": "node-1-1",
+          "title": "Learning TypeScript (Josh Goldberg)",
+          "url": "https://www.learningtypescript.com/",
+          "type": "book",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "15 hours",
+          "platform": "O'Reilly",
+          "isRecommended": false
+        },
+        {
+          "id": "res-70",
+          "nodeId": "node-1-1",
+          "title": "Programming TypeScript (Boris Cherny)",
+          "url": "https://www.oreilly.com/library/view/programming-typescript/9781492037644/",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "20 hours",
+          "platform": "O'Reilly",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-1-2",
+      "title": "Type Erasure and Runtime Behavior",
+      "description": "All TypeScript types are removed at compilation. Types never affect runtime behavior.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 110,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "compile-time-only",
+        "no-runtime-types",
+        "emitted-javascript"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-1-3",
+      "title": "Union and Intersection Types",
+      "description": "Union types (A | B) model either/or values. Intersection types (A & B) combine type shapes.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "union-types",
+        "intersection-types",
+        "type-composition"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "union-member-access",
+        "intersection-merging",
+        "union-vs-intersection"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-2",
+          "nodeId": "node-1-3",
+          "title": "TypeScript Handbook — Everyday Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-1-4",
+      "title": "Type Narrowing",
+      "description": "Control flow analysis that refines broad types to specific types using type guards.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-1-3"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "typeof-guards",
+        "instanceof",
+        "in-operator",
+        "truthiness",
+        "type-predicates"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "typeof",
+        "instanceof",
+        "in-operator",
+        "truthiness-narrowing",
+        "equality-narrowing",
+        "custom-type-predicates"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-6",
+          "nodeId": "node-1-4",
+          "title": "TypeScript Exercises",
+          "url": "https://typescript-exercises.github.io/",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "5 hours",
+          "platform": "GitHub Pages",
+          "isRecommended": true
+        },
+        {
+          "id": "res-3",
+          "nodeId": "node-1-4",
+          "title": "TypeScript Handbook — Narrowing",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1.5 hours",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-72",
+          "nodeId": "node-1-4",
+          "title": "Exercism TypeScript Track",
+          "url": "https://exercism.org/tracks/typescript",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "20 hours",
+          "platform": "Exercism",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-1-5",
+      "title": "Discriminated Unions",
+      "description": "Union members sharing a literal discriminant property for exhaustive type narrowing.",
+      "difficulty": "beginner-intermediate",
+      "sectionId": "section-foundations",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E0F2F1",
+        "border": "#26A69A",
+        "text": "#00695C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-1-3",
+        "node-1-4"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "tagged-unions",
+        "discriminant-property",
+        "exhaustiveness-checking",
+        "never-type"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "switch-narrowing",
+        "exhaustiveness-with-never",
+        "assertNever-helper"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-1-6",
+      "title": "Literal Types and Inference",
+      "description": "TypeScript infers exact literal values as types. Covers widening, narrowing, as const, contextual typing.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "literal-inference",
+        "widening",
+        "as-const",
+        "contextual-typing",
+        "best-common-type"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "let-vs-const-inference",
+        "as-const-assertion",
+        "contextual-typing",
+        "widening-prevention"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-8",
+          "nodeId": "node-1-6",
+          "title": "TypeScript Playground",
+          "url": "https://www.typescriptlang.org/play",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "self-paced",
+          "platform": "typescriptlang.org",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-1-7",
+      "title": "type vs interface",
+      "description": "Choosing between type aliases and interface declarations based on use case, extension patterns, and readability.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 7,
+      "x": 120,
+      "y": 310,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-3"
+      ],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "declaration-merging",
+        "extends-vs-intersection",
+        "union-limitation"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-1-8",
+      "title": "any, unknown, and never",
+      "description": "Understanding the top (any/unknown) and bottom (never) types. Avoiding any leakage, using unknown safely.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 8,
+      "x": 560,
+      "y": 310,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "any-leakage",
+        "unknown-safety",
+        "never-exhaustiveness",
+        "type-assertions-danger"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "any-propagation",
+        "as-assertion-risks",
+        "non-null-assertion",
+        "unknown-narrowing"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-4",
+          "nodeId": "node-1-8",
+          "title": "Effective TypeScript (2nd Edition)",
+          "url": "https://effectivetypescript.com/",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "paid",
+          "estimatedTime": "20 hours",
+          "platform": "O'Reilly",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-2-1",
+      "title": "strict Mode and Safety Flags",
+      "description": "The strict meta-flag and additional safety options: noUncheckedIndexedAccess, exactOptionalPropertyTypes, etc.",
+      "difficulty": "beginner-intermediate",
+      "sectionId": "section-foundations",
+      "displayOrder": 9,
+      "x": 1000,
+      "y": 310,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E0F2F1",
+        "border": "#26A69A",
+        "text": "#00695C"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-1-8"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "strict-flag-family",
+        "strictNullChecks",
+        "noImplicitAny",
+        "noUncheckedIndexedAccess",
+        "useUnknownInCatchVariables"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "strict-sub-flags",
+        "safety-flag-adoption-order",
+        "before-after-examples"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-9",
+          "nodeId": "node-2-1",
+          "title": "TSConfig Reference",
+          "url": "https://www.typescriptlang.org/tsconfig/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-10",
+          "nodeId": "node-2-1",
+          "title": "TSConfig Cheat Sheet (Matt Pocock)",
+          "url": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        },
+        {
+          "id": "res-81",
+          "nodeId": "node-2-1",
+          "title": "Strictest TypeScript Config (whatislove.dev)",
+          "url": "https://whatislove.dev/articles/the-strictest-typescript-config/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Blog",
+          "isRecommended": false
+        },
+        {
+          "id": "res-78",
+          "nodeId": "node-2-1",
+          "title": "Total TypeScript — Pro Essentials",
+          "url": "https://www.totaltypescript.com/workshops/typescript-pro-essentials",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "10 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-2-2",
+      "title": "Module Resolution",
+      "description": "Choosing between NodeNext and bundler resolution. ESM/CJS interoperability. verbatimModuleSyntax.",
+      "difficulty": "intermediate",
+      "sectionId": "section-foundations",
+      "displayOrder": 10,
+      "x": 120,
+      "y": 410,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "NodeNext",
+        "bundler-resolution",
+        "ESM-CJS-interop",
+        "verbatimModuleSyntax",
+        "isolatedModules"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "module-vs-moduleResolution",
+        "file-extensions",
+        "package-json-exports",
+        "dual-publishing"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-11",
+          "nodeId": "node-2-2",
+          "title": "TypeScript Modules Theory",
+          "url": "https://www.typescriptlang.org/docs/handbook/modules/theory.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-73",
+          "nodeId": "node-2-2",
+          "title": "Module Resolution Guide (BetterStack)",
+          "url": "https://betterstack.com/community/guides/scaling-nodejs/typescript-module-resolution/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "BetterStack",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-2-3",
+      "title": "Project References and Incremental Builds",
+      "description": "Structuring monorepos with composite projects, tsc --build, and .tsbuildinfo caching.",
+      "difficulty": "intermediate",
+      "sectionId": "section-foundations",
+      "displayOrder": 11,
+      "x": 560,
+      "y": 410,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-2"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "composite",
+        "references",
+        "tsc-build",
+        "tsbuildinfo",
+        "declarationMap"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "dependency-graph",
+        "incremental-compilation",
+        "solution-style-tsconfig"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-12",
+          "nodeId": "node-2-3",
+          "title": "Project References Documentation",
+          "url": "https://www.typescriptlang.org/docs/handbook/project-references.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-2-4",
+      "title": "TSConfig Layering Strategy",
+      "description": "Designing multi-layer tsconfig inheritance for monorepos: base, package, test, and build configs.",
+      "difficulty": "intermediate",
+      "sectionId": "section-foundations",
+      "displayOrder": 12,
+      "x": 1000,
+      "y": 410,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1",
+        "node-2-2"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "extends-property",
+        "config-inheritance",
+        "base-config",
+        "test-overrides"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "merge-vs-overwrite-semantics",
+        "community-bases",
+        "tsc-showConfig"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-13",
+          "nodeId": "node-2-4",
+          "title": "tsconfig/bases Repository",
+          "url": "https://github.com/tsconfig/bases",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "GitHub",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-3-1",
+      "title": "State Modeling with Discriminated Unions",
+      "description": "Modeling finite-state workflows, API responses, and domain states with discriminated unions.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 810,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-5"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "state-machines",
+        "impossible-states",
+        "workflow-modeling"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "order-lifecycle",
+        "request-state",
+        "form-wizard-state"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-14",
+          "nodeId": "node-3-1",
+          "title": "Discriminated Unions Are a Dev's Best Friend",
+          "url": "https://www.totaltypescript.com/discriminated-unions-are-a-devs-best-friend",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "15 min",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-3-2",
+      "title": "Branded and Opaque Types",
+      "description": "Creating nominally distinct types from structural primitives for IDs, units, and validated values.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 810,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "unique-symbol-brand",
+        "nominal-typing",
+        "factory-functions"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "unique-symbol-pattern",
+        "object-literal-brand",
+        "zod-brand",
+        "branded-validation"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-19",
+          "nodeId": "node-3-2",
+          "title": "Total TypeScript — Advanced Patterns Workshop",
+          "url": "https://www.totaltypescript.com/workshops/advanced-typescript-patterns",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "7 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-3-3",
+      "title": "Utility Types and Mapped Types",
+      "description": "Built-in utility types (Pick, Omit, Partial, Readonly, Record) and custom mapped type patterns.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 810,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-1-3",
+        "node-1-7"
+      ],
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "Pick",
+        "Omit",
+        "Partial",
+        "Readonly",
+        "Record",
+        "mapped-types",
+        "key-remapping"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "modifier-manipulation",
+        "key-filtering",
+        "property-transformation",
+        "API-DTO-derivation"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-15",
+          "nodeId": "node-3-3",
+          "title": "TypeScript Handbook — Mapped Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "45 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-18",
+          "nodeId": "node-3-3",
+          "title": "Total TypeScript — Type Transformations Workshop",
+          "url": "https://www.totaltypescript.com/workshops/type-transformations",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "8 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        },
+        {
+          "id": "res-20",
+          "nodeId": "node-3-3",
+          "title": "Mapped Types Guide (Dr. Axel Rauschmayer)",
+          "url": "https://2ality.com/2025/02/mapped-types-typescript.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "45 min",
+          "platform": "2ality",
+          "isRecommended": false
+        },
+        {
+          "id": "res-21",
+          "nodeId": "node-3-3",
+          "title": "Type-Level TypeScript Course",
+          "url": "https://type-level-typescript.com/",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "15 hours",
+          "platform": "type-level-typescript.com",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-3-4",
+      "title": "Conditional Types and infer",
+      "description": "Type-level branching with extends. The infer keyword for extracting types from patterns.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-type-depth",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 910,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-3"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "extends-condition",
+        "infer-keyword",
+        "distributive-conditionals",
+        "type-extraction"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "ReturnType-implementation",
+        "unwrap-promise",
+        "array-element-extraction",
+        "distribution-control"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-7",
+          "nodeId": "node-3-4",
+          "title": "Type Challenges",
+          "url": "https://github.com/type-challenges/type-challenges",
+          "type": "exercise",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "20 hours",
+          "platform": "GitHub",
+          "isRecommended": true
+        },
+        {
+          "id": "res-16",
+          "nodeId": "node-3-4",
+          "title": "TypeScript Handbook — Conditional Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "45 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-3-5",
+      "title": "Template Literal Types",
+      "description": "Constructing string types from other literals. Route keys, event names, feature flags.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 910,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-6",
+        "node-3-3"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "string-concatenation-types",
+        "cross-product",
+        "intrinsic-string-types",
+        "pattern-matching"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "route-key-typing",
+        "event-name-typing",
+        "parameter-extraction",
+        "Capitalize-Uppercase"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-17",
+          "nodeId": "node-3-5",
+          "title": "TypeScript Handbook — Template Literal Types",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-3-6",
+      "title": "satisfies Operator and Type Readability",
+      "description": "Using satisfies for validation without widening. Design principles for readable types.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 910,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-6"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "satisfies-operator",
+        "type-readability",
+        "naming-conventions",
+        "complexity-limits"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-4-1",
+      "title": "Trust Boundaries and Parse Don't Validate",
+      "description": "Identifying where compile-time safety ends and runtime validation begins. The parsing philosophy.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 7,
+      "x": 120,
+      "y": 1010,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-2",
+        "node-1-8"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "trust-boundaries",
+        "parse-dont-validate",
+        "validated-zone"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "HTTP-boundaries",
+        "database-boundaries",
+        "config-boundaries",
+        "queue-boundaries"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-22",
+          "nodeId": "node-4-1",
+          "title": "Parse, Don't Validate (Alexis King)",
+          "url": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Blog",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-4-2",
+      "title": "Type Guards and Assertion Functions",
+      "description": "User-defined type predicates (value is Type) and assertion functions (asserts value is Type).",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 8,
+      "x": 560,
+      "y": 1010,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-4",
+        "node-4-1"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "type-predicates",
+        "assertion-functions",
+        "guard-correctness"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-4-3",
+      "title": "Schema Validation with Zod",
+      "description": "Defining schemas, parsing data, inferring types, handling errors with Zod.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 9,
+      "x": 1000,
+      "y": 1010,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-4-1"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "zod-schemas",
+        "z-infer",
+        "safeParse",
+        "refinements",
+        "transforms"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "basic-schemas",
+        "complex-objects",
+        "discriminated-unions",
+        "error-formatting",
+        "recursive-schemas"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-23",
+          "nodeId": "node-4-3",
+          "title": "Zod Documentation",
+          "url": "https://zod.dev/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "zod.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-24",
+          "nodeId": "node-4-3",
+          "title": "Total TypeScript — Zod Tutorial",
+          "url": "https://www.totaltypescript.com/tutorials/zod",
+          "type": "course",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-4-4",
+      "title": "Schema-First vs Type-First Architecture",
+      "description": "Choosing between deriving types from schemas vs schemas from types. Tradeoffs and tools.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 10,
+      "x": 120,
+      "y": 1110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-4-3"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "schema-first",
+        "type-first",
+        "external-schema-first",
+        "Valibot",
+        "ArkType",
+        "Standard-Schema"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "z-infer-pattern",
+        "typia",
+        "OpenAPI-codegen",
+        "GraphQL-codegen"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-26",
+          "nodeId": "node-4-4",
+          "title": "Runtime Types (Dan Vanderkam)",
+          "url": "https://effectivetypescript.com/2024/10/31/runtime-types/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Blog",
+          "isRecommended": true
+        },
+        {
+          "id": "res-25",
+          "nodeId": "node-4-4",
+          "title": "Valibot Documentation",
+          "url": "https://valibot.dev/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "valibot.dev",
+          "isRecommended": false
+        },
+        {
+          "id": "res-75",
+          "nodeId": "node-4-4",
+          "title": "Standard Schema Specification",
+          "url": "https://standardschema.dev/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "standardschema.dev",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-4-5",
+      "title": "Contract Testing",
+      "description": "Ensuring API contracts hold across frontend/backend boundaries. Pact, OpenAPI, tRPC approaches.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-type-depth",
+      "displayOrder": 11,
+      "x": 560,
+      "y": 1110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-4-4"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "consumer-driven-contracts",
+        "Pact",
+        "OpenAPI-validation",
+        "schema-validated-clients"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Pact-setup",
+        "OpenAPI-typescript",
+        "type-level-contract-tests"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-27",
+          "nodeId": "node-4-5",
+          "title": "Pact Contract Testing Documentation",
+          "url": "https://docs.pact.io/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "pact.io",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-5-1",
+      "title": "Generic Fundamentals",
+      "description": "Generic type parameters, constraints with extends, default parameters, and basic inference.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 12,
+      "x": 1000,
+      "y": 1110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-1-3",
+        "node-3-3"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "type-parameters",
+        "extends-constraint",
+        "keyof-constraint",
+        "default-params"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "generic-functions",
+        "generic-interfaces",
+        "generic-classes",
+        "keyof-with-generics"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-28",
+          "nodeId": "node-5-1",
+          "title": "TypeScript Handbook — Generics",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-29",
+          "nodeId": "node-5-1",
+          "title": "Total TypeScript — Generics Workshop",
+          "url": "https://www.totaltypescript.com/workshops/typescript-generics",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "5 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-5-2",
+      "title": "Generic Inference and Common Failures",
+      "description": "How TypeScript infers generic arguments. Common inference failures and practical fixes.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 13,
+      "x": 120,
+      "y": 1210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-5-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "inference-mechanics",
+        "widening-in-generics",
+        "callback-inference",
+        "helper-functions"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "explicit-type-args",
+        "satisfies-for-inference",
+        "as-const-with-generics"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-31",
+          "nodeId": "node-5-2",
+          "title": "Guidelines for Writing Good Generic Functions",
+          "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#guidelines-for-writing-good-generic-functions",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-5-3",
+      "title": "Variance",
+      "description": "Covariance, contravariance, invariance, bivariance. Explicit in/out annotations (TS 4.7+).",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-type-depth",
+      "displayOrder": 14,
+      "x": 560,
+      "y": 1210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-5-1",
+        "node-1-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "covariance",
+        "contravariance",
+        "invariance",
+        "in-out-annotations"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "output-positions",
+        "input-positions",
+        "strictFunctionTypes",
+        "variance-annotations"
+      ],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-32",
+          "nodeId": "node-5-3",
+          "title": "Covariance and Contravariance (Dmitri Pavlutin)",
+          "url": "https://dmitripavlutin.com/typescript-covariance-contravariance/",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Blog",
+          "isRecommended": true
+        },
+        {
+          "id": "res-80",
+          "nodeId": "node-5-3",
+          "title": "Semver-TS Variance Appendix",
+          "url": "https://www.semver-ts.org/appendices/c-variance-in-typescript.html",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "semver-ts.org",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-5-4",
+      "title": "Generic Design Judgment",
+      "description": "The Golden Rule, over-abstraction anti-patterns, when generics help vs hurt.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 15,
+      "x": 1000,
+      "y": 1210,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-5-1",
+        "node-5-2"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "golden-rule",
+        "single-use-generics",
+        "type-param-soup",
+        "simplification"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-30",
+          "nodeId": "node-5-4",
+          "title": "Golden Rule of Generics (Dan Vanderkam)",
+          "url": "https://effectivetypescript.com/2020/08/12/generics-golden-rule/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "15 min",
+          "platform": "Blog",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-5-5",
+      "title": "Generic Utility Patterns",
+      "description": "Practical patterns: typed event emitters, generic repositories, builder patterns, constrained identity.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 16,
+      "x": 120,
+      "y": 1310,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-5-1",
+        "node-5-2"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "typed-event-emitter",
+        "generic-repository",
+        "builder-pattern",
+        "passthrough-functions"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "event-map-pattern",
+        "CRUD-generics",
+        "form-builder",
+        "defineConfig"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-71",
+          "nodeId": "node-5-5",
+          "title": "Execute Program — Advanced TypeScript",
+          "url": "https://www.executeprogram.com/courses/advanced-typescript",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "4 hours",
+          "platform": "Execute Program",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-6-1",
+      "title": "React Props Modeling",
+      "description": "Typed props, optional props with defaults, children typing, extending HTML element props with ComponentProps.",
+      "difficulty": "intermediate",
+      "sectionId": "section-frontend",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 1610,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-3",
+        "node-1-5"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "ComponentProps",
+        "PropsWithChildren",
+        "discriminated-union-props",
+        "rest-spread-props"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "basic-props",
+        "optional-defaults",
+        "children-typing",
+        "HTML-element-extension"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-33",
+          "nodeId": "node-6-1",
+          "title": "React Official TypeScript Guide",
+          "url": "https://react.dev/learn/typescript",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "react.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-35",
+          "nodeId": "node-6-1",
+          "title": "React TypeScript Cheatsheet",
+          "url": "https://react-typescript-cheatsheet.netlify.app/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "self-paced",
+          "platform": "GitHub Pages",
+          "isRecommended": true
+        },
+        {
+          "id": "res-34",
+          "nodeId": "node-6-1",
+          "title": "Total TypeScript — React with TypeScript Tutorial",
+          "url": "https://www.totaltypescript.com/tutorials/react-with-typescript",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "4 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-6-2",
+      "title": "Hooks and State Typing",
+      "description": "Typing useState, useReducer with discriminated union actions, custom generic hooks.",
+      "difficulty": "intermediate",
+      "sectionId": "section-frontend",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 1610,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-6-1",
+        "node-5-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "useState-typing",
+        "useReducer-actions",
+        "generic-hooks",
+        "tuple-return-types"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "useFetch-hook",
+        "useForm-hook",
+        "useLocalStorage-hook"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-6-3",
+      "title": "Context API and State Management",
+      "description": "Typed context creation, custom consumer hooks with null guards, reducer-based context.",
+      "difficulty": "intermediate",
+      "sectionId": "section-frontend",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 1610,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-6-2"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "createContext-typing",
+        "null-guard-hooks",
+        "reducer-context"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-6-4",
+      "title": "Advanced Component Patterns",
+      "description": "Generic components, polymorphic components (as prop), compound components, render props.",
+      "difficulty": "advanced",
+      "sectionId": "section-frontend",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 1710,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-6-1",
+        "node-5-2"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "generic-components",
+        "polymorphic-as-prop",
+        "compound-components",
+        "render-props"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "DataTable-generic",
+        "Select-generic",
+        "Box-polymorphic",
+        "Tabs-compound"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-36",
+          "nodeId": "node-6-4",
+          "title": "Total TypeScript — Advanced React with TypeScript",
+          "url": "https://www.totaltypescript.com/workshops/advanced-react-with-typescript",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "interactive",
+          "cost": "paid",
+          "estimatedTime": "8 hours",
+          "platform": "Total TypeScript",
+          "isRecommended": true
+        },
+        {
+          "id": "res-77",
+          "nodeId": "node-6-4",
+          "title": "Radix UI Primitives (Source Study)",
+          "url": "https://github.com/radix-ui/primitives",
+          "type": "repository",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "GitHub",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-6-5",
+      "title": "Event and Ref Typing",
+      "description": "React synthetic event types, ref typing with useRef, forwardRef, useImperativeHandle, React 19 changes.",
+      "difficulty": "intermediate",
+      "sectionId": "section-frontend",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 1710,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-6-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "SyntheticEvent-types",
+        "useRef-typing",
+        "forwardRef",
+        "React-19-ref-prop"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "MouseEvent",
+        "ChangeEvent",
+        "FormEvent",
+        "MutableRefObject",
+        "useImperativeHandle"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-6-6",
+      "title": "End-to-End API-to-UI Type Safety",
+      "description": "Maintaining type safety from API through data layer to UI. tRPC, TanStack Query, Zod validation.",
+      "difficulty": "advanced",
+      "sectionId": "section-frontend",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 1710,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-6-2",
+        "node-4-3"
+      ],
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "tRPC-React",
+        "TanStack-Query-generics",
+        "Zod-schema-to-hook",
+        "OpenAPI-codegen"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "typed-fetch",
+        "query-key-typing",
+        "schema-validated-responses"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-37",
+          "nodeId": "node-6-6",
+          "title": "Type-Safe React Query (TkDodo)",
+          "url": "https://tkdodo.eu/blog/type-safe-react-query",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Blog",
+          "isRecommended": true
+        },
+        {
+          "id": "res-38",
+          "nodeId": "node-6-6",
+          "title": "tRPC Documentation",
+          "url": "https://trpc.io/docs",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "trpc.io",
+          "isRecommended": true
+        },
+        {
+          "id": "res-39",
+          "nodeId": "node-6-6",
+          "title": "TanStack Query TypeScript Docs",
+          "url": "https://tanstack.com/query/latest/docs/framework/react/typescript",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "tanstack.com",
+          "isRecommended": false
+        },
+        {
+          "id": "res-83",
+          "nodeId": "node-6-6",
+          "title": "React and TypeScript v3 (Frontend Masters)",
+          "url": "https://frontendmasters.com/courses/react-typescript/",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "video",
+          "cost": "paid",
+          "estimatedTime": "6 hours",
+          "platform": "Frontend Masters",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-7-1",
+      "title": "Typed Route Handlers",
+      "description": "Express/Fastify/Hono typed request/response contracts using generics and type providers.",
+      "difficulty": "intermediate",
+      "sectionId": "section-backend",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 2010,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-3",
+        "node-4-3"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "Fastify-type-providers",
+        "Hono-route-chaining",
+        "Express-generics",
+        "schema-derived-types"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Fastify-Zod-provider",
+        "Hono-validator",
+        "NestJS-controllers"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-40",
+          "nodeId": "node-7-1",
+          "title": "Fastify TypeScript Reference",
+          "url": "https://fastify.dev/docs/latest/Reference/TypeScript/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "fastify.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-41",
+          "nodeId": "node-7-1",
+          "title": "Hono RPC Documentation",
+          "url": "https://hono.dev/docs/guides/rpc",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "hono.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-85",
+          "nodeId": "node-7-1",
+          "title": "NestJS Documentation",
+          "url": "https://docs.nestjs.com/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "nestjs.com",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-7-2",
+      "title": "Middleware Augmentation",
+      "description": "Extending framework types via declaration merging to add typed custom properties to requests.",
+      "difficulty": "intermediate",
+      "sectionId": "section-backend",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 2010,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-7-1"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "declaration-merging",
+        "module-augmentation",
+        "optional-middleware-props"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-44",
+          "nodeId": "node-7-2",
+          "title": "TypeScript Handbook — Declaration Merging",
+          "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-7-3",
+      "title": "Error Envelope Patterns",
+      "description": "Standardized typed error responses. Custom error class hierarchies. RFC 9457 Problem Details.",
+      "difficulty": "intermediate",
+      "sectionId": "section-backend",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 2010,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-1",
+        "node-7-1"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "error-envelope",
+        "error-class-hierarchy",
+        "global-error-middleware",
+        "RFC-9457"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-7-4",
+      "title": "Database Type Integration",
+      "description": "Type-safe database access with Prisma and Drizzle ORM. Repository pattern. Drift control.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-backend",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 2110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-3",
+        "node-7-1"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "Prisma-generated-types",
+        "Drizzle-schema-types",
+        "repository-pattern",
+        "drift-control"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Prisma-CreateInput",
+        "Drizzle-table-builders",
+        "type-derivation-from-ORM"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-42",
+          "nodeId": "node-7-4",
+          "title": "Prisma TypeScript Documentation",
+          "url": "https://www.prisma.io/typescript",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "prisma.io",
+          "isRecommended": true
+        },
+        {
+          "id": "res-43",
+          "nodeId": "node-7-4",
+          "title": "Drizzle ORM Documentation",
+          "url": "https://orm.drizzle.team/docs/overview",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "drizzle.team",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-7-5",
+      "title": "Typed Event Systems",
+      "description": "Type-safe Node.js event emitters using event maps and generics. Versioned event contracts.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-backend",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 2110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-5-5",
+        "node-3-5"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "event-map",
+        "TypedEventEmitter",
+        "typed-emitter-package",
+        "versioned-events"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "custom-emitter-wrapper",
+        "backward-compatible-events"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-45",
+          "nodeId": "node-7-5",
+          "title": "Type-Safe Event Emitters (Matt Pocock)",
+          "url": "https://typescript.tv/hands-on/make-nodejs-eventemitter-type-safe/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "15 min",
+          "platform": "typescript.tv",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-7-6",
+      "title": "End-to-End Type Sharing",
+      "description": "Sharing types between frontend and backend. tRPC, Hono RPC, shared packages, OpenAPI codegen.",
+      "difficulty": "advanced",
+      "sectionId": "section-backend",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 2110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-5-1",
+        "node-4-3"
+      ],
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "tRPC",
+        "Hono-RPC",
+        "shared-type-packages",
+        "OpenAPI-codegen",
+        "monorepo-type-sharing"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "tRPC-procedures",
+        "Hono-hc-client",
+        "openapi-typescript",
+        "GraphQL-codegen"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-76",
+          "nodeId": "node-7-6",
+          "title": "openapi-typescript",
+          "url": "https://github.com/openapi-ts/openapi-typescript",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-8-1",
+      "title": "tsc --noEmit and CI Type-Checking",
+      "description": "Using TypeScript compiler as a type-checking gate in CI pipelines. Parallel stages.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 2510,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "noEmit",
+        "CI-pipeline",
+        "parallel-stages",
+        "pre-commit-hooks"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-8-2",
+      "title": "typescript-eslint Typed Linting",
+      "description": "ESLint rules using TypeScript type information. projectService, performance profiling, key typed rules.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 2510,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "typed-rules",
+        "projectService",
+        "no-floating-promises",
+        "TIMING-profiling"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "no-misused-promises",
+        "strict-boolean-expressions",
+        "no-unnecessary-condition",
+        "performance-optimization"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-46",
+          "nodeId": "node-8-2",
+          "title": "typescript-eslint Typed Linting Guide",
+          "url": "https://typescript-eslint.io/getting-started/typed-linting/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescript-eslint.io",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-8-3",
+      "title": "VS Code TypeScript Mastery",
+      "description": "Inlay hints, Go to Definition, Rename Symbol, Quick Fixes, diagnostics panel, workspace settings.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 2510,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "inlay-hints",
+        "rename-symbol",
+        "go-to-definition",
+        "quick-fixes",
+        "organize-imports"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "TypeScript-version-selector",
+        "workspace-settings",
+        "keyboard-shortcuts"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-47",
+          "nodeId": "node-8-3",
+          "title": "VS Code TypeScript Editing Features",
+          "url": "https://code.visualstudio.com/docs/typescript/typescript-editing",
+          "type": "documentation",
+          "difficulty": "beginner",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "code.visualstudio.com",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-8-4",
+      "title": "Type-Level Testing",
+      "description": "Testing type behavior at compile time with expectTypeOf, tsd, and @ts-expect-error.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-tooling",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 2610,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-3-3"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "expectTypeOf",
+        "tsd",
+        "ts-expect-error",
+        "test-d-ts-files"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Vitest-type-testing",
+        "expect-type-library",
+        "negative-type-tests"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-48",
+          "nodeId": "node-8-4",
+          "title": "Vitest Testing Types",
+          "url": "https://vitest.dev/guide/testing-types",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "vitest.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-79",
+          "nodeId": "node-8-4",
+          "title": "tsd — Type Definition Testing",
+          "url": "https://github.com/tsdjs/tsd",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-8-5",
+      "title": "Type Coverage and Code Hygiene",
+      "description": "Measuring type coverage with type-coverage. Dead code detection with Knip. CI thresholds.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 2610,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "type-coverage",
+        "Knip",
+        "coverage-thresholds",
+        "ratcheting"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "HTML-coverage-reports",
+        "dead-code-detection",
+        "unused-export-elimination"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-49",
+          "nodeId": "node-8-5",
+          "title": "Knip — Dead Code Detector",
+          "url": "https://knip.dev/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "knip.dev",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-8-6",
+      "title": "CI Pipeline Design",
+      "description": "Structuring CI workflows for TypeScript: parallel jobs, caching, monorepo optimization.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 2610,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "🏆"
+      },
+      "prerequisites": [
+        "node-8-1",
+        "node-8-2"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "parallel-CI-jobs",
+        "tsbuildinfo-caching",
+        "type-coverage-gate",
+        "GitHub-Actions"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "cache-strategies",
+        "affected-only-checks",
+        "Turborepo-integration"
+      ],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-8-7",
+      "title": "Testing Stack Integration",
+      "description": "Type-safe testing with Vitest/Jest. Typed mocks, typed assertions, test tsconfig.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 7,
+      "x": 120,
+      "y": 2710,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "Vitest",
+        "ts-jest",
+        "typed-mocks",
+        "test-tsconfig"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-9-1",
+      "title": "Incremental JS-to-TS Migration",
+      "description": "Phased migration strategy: allowJs, checkJs, file-by-file conversion, strictness ratcheting.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 1,
+      "x": 120,
+      "y": 3010,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1",
+        "node-8-1"
+      ],
+      "estimatedHours": 5,
+      "keyConcepts": [
+        "allowJs",
+        "checkJs",
+        "leaf-first",
+        "new-code-policy",
+        "migration-phases"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "JSDoc-typing",
+        "declaration-files",
+        "type-stubs",
+        "ts-expect-error-tracking"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-50",
+          "nodeId": "node-9-1",
+          "title": "TypeScript Official Migration Guide",
+          "url": "https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-55",
+          "nodeId": "node-9-1",
+          "title": "TypeScript's Migration to Modules (Microsoft)",
+          "url": "https://devblogs.microsoft.com/typescript/typescripts-migration-to-modules/",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Microsoft DevBlogs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-51",
+          "nodeId": "node-9-1",
+          "title": "Tackling TypeScript — Migration Chapter",
+          "url": "https://exploringjs.com/ts/book/ch_migrating-to-typescript.html",
+          "type": "book",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "exploringjs.com",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-9-2",
+      "title": "Codemod Tools",
+      "description": "Automated migration with ts-migrate, jscodeshift, and ts-morph. Writing custom codemods.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 2,
+      "x": 560,
+      "y": 3010,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-9-1"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "ts-migrate",
+        "jscodeshift",
+        "ts-morph",
+        "AST-transforms"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "ts-migrate-workflow",
+        "custom-transforms",
+        "type-aware-refactoring"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-54",
+          "nodeId": "node-9-2",
+          "title": "ts-migrate Blog (Airbnb Engineering)",
+          "url": "https://medium.com/airbnb-engineering/ts-migrate-a-tool-for-migrating-to-typescript-at-scale-cd23bfeb5cc",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Medium",
+          "isRecommended": true
+        },
+        {
+          "id": "res-52",
+          "nodeId": "node-9-2",
+          "title": "ts-migrate (Airbnb)",
+          "url": "https://github.com/airbnb/ts-migrate",
+          "type": "repository",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "GitHub",
+          "isRecommended": true
+        },
+        {
+          "id": "res-53",
+          "nodeId": "node-9-2",
+          "title": "ts-morph Documentation",
+          "url": "https://ts-morph.com/",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "ts-morph.com",
+          "isRecommended": false
+        },
+        {
+          "id": "res-82",
+          "nodeId": "node-9-2",
+          "title": "Codemods for API Refactoring (Martin Fowler)",
+          "url": "https://martinfowler.com/articles/codemods-api-refactoring.html",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "martinfowler.com",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-9-3",
+      "title": "Type Debt Tracking and Burndown",
+      "description": "Systematic any elimination: $TSFixMe patterns, type coverage CI gates, burndown metrics.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 3,
+      "x": 1000,
+      "y": 3010,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-8-5",
+        "node-9-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "TSFixMe-alias",
+        "any-count-tracking",
+        "coverage-ratchet",
+        "ts-expect-error-burndown"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-74",
+          "nodeId": "node-9-3",
+          "title": "type-coverage CLI",
+          "url": "https://github.com/plantain-00/type-coverage",
+          "type": "repository",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "GitHub",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-9-4",
+      "title": "Monorepo Patterns and Boundaries",
+      "description": "Structuring monorepos with project references, dependency boundaries, and ownership models.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 4,
+      "x": 120,
+      "y": 3110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-3"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "package-boundaries",
+        "Turborepo",
+        "Nx",
+        "dependency-enforcement",
+        "shared-kernel"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "no-restricted-imports",
+        "package-exports",
+        "anti-patterns"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-9-5",
+      "title": "Safe Large Refactoring",
+      "description": "Strangler fig pattern, feature flags, contract tests as safety nets, compiler upgrade codemods.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 5,
+      "x": 560,
+      "y": 3110,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-9-1",
+        "node-4-5"
+      ],
+      "estimatedHours": 4,
+      "keyConcepts": [
+        "strangler-fig",
+        "feature-flags",
+        "parallel-runs",
+        "atomic-PRs",
+        "contract-test-safety-net"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-10-1",
+      "title": "Performance Diagnostics",
+      "description": "Using --generateTrace, --extendedDiagnostics, and @typescript/analyze-trace to find bottlenecks.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 6,
+      "x": 1000,
+      "y": 3110,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "generateTrace",
+        "extendedDiagnostics",
+        "analyze-trace",
+        "Perfetto-UI",
+        "hot-files"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Chrome-tracing",
+        "per-file-analysis",
+        "instantiation-counts"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-56",
+          "nodeId": "node-10-1",
+          "title": "TypeScript Performance Wiki",
+          "url": "https://github.com/microsoft/TypeScript/wiki/Performance",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "GitHub",
+          "isRecommended": true
+        },
+        {
+          "id": "res-57",
+          "nodeId": "node-10-1",
+          "title": "TypeScript Performance Tracing Wiki",
+          "url": "https://github.com/microsoft/TypeScript/wiki/Performance-Tracing",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "GitHub",
+          "isRecommended": true
+        },
+        {
+          "id": "res-63",
+          "nodeId": "node-10-1",
+          "title": "Navigating TypeScript Performance (Aleksandra Sikora)",
+          "url": "https://www.youtube.com/watch?v=IzzvGrZrFSE",
+          "type": "course",
+          "difficulty": "advanced",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "YouTube",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-10-2",
+      "title": "Expensive Type Patterns",
+      "description": "Patterns that slow type-checking: deep recursion, large unions, unconstrained generics. Mitigation strategies.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 7,
+      "x": 120,
+      "y": 3210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-10-1",
+        "node-3-4",
+        "node-5-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "recursive-type-depth",
+        "union-explosion",
+        "instantiation-budget",
+        "interface-vs-intersection-perf"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "naming-types",
+        "explicit-return-types",
+        "recursion-limits",
+        "breaking-conditional-chains"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-58",
+          "nodeId": "node-10-2",
+          "title": "Type-Checking Perf Optimization (Gel Blog)",
+          "url": "https://www.geldata.com/blog/an-approach-to-optimizing-typescript-type-checking-performance",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Blog",
+          "isRecommended": true
+        },
+        {
+          "id": "res-59",
+          "nodeId": "node-10-2",
+          "title": "Fixing TypeScript Performance (Viget)",
+          "url": "https://www.viget.com/articles/fixing-typescript-performance-problems",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Blog",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-10-3",
+      "title": "Emit Separation and Fast Builds",
+      "description": "Decoupling transpilation (SWC/esbuild) from type-checking (tsc --noEmit). isolatedDeclarations.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 8,
+      "x": 560,
+      "y": 3210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-2"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "SWC",
+        "esbuild",
+        "transpile-only",
+        "emitDeclarationOnly",
+        "isolatedDeclarations"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "parallel-pipeline",
+        "dev-server-speed",
+        "CI-emit-separation"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-60",
+          "nodeId": "node-10-3",
+          "title": "isolatedDeclarations Documentation",
+          "url": "https://www.typescriptlang.org/tsconfig/isolatedDeclarations.html",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "node-10-4",
+      "title": "Cache-Aware CI and Build Orchestration",
+      "description": "Turborepo/Nx remote caching, affected-only builds, benchmarking methodology.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 9,
+      "x": 1000,
+      "y": 3210,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-8-6",
+        "node-10-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "remote-caching",
+        "affected-commands",
+        "BAM-method",
+        "performance-budgets"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "Turborepo-config",
+        "Nx-Cloud",
+        "benchmark-tracking"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-61",
+          "nodeId": "node-10-4",
+          "title": "Turborepo TypeScript Guide",
+          "url": "https://turborepo.dev/docs/guides/tools/typescript",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "turborepo.dev",
+          "isRecommended": true
+        },
+        {
+          "id": "res-62",
+          "nodeId": "node-10-4",
+          "title": "Nx TypeScript Monorepo Management",
+          "url": "https://nx.dev/blog/managing-ts-packages-in-monorepos",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "nx.dev",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-11-1",
+      "title": "Modern TS Features (5.0-5.8)",
+      "description": "High-impact features: decorators, const type params, using declarations, NoInfer, inferred type predicates.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 10,
+      "x": 120,
+      "y": 3310,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-2-1",
+        "node-5-1"
+      ],
+      "estimatedHours": 6,
+      "keyConcepts": [
+        "ES-decorators",
+        "const-type-params",
+        "using-declarations",
+        "NoInfer",
+        "inferred-predicates",
+        "erasableSyntaxOnly"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "TS-5.0-decorators",
+        "TS-5.2-using",
+        "TS-5.4-NoInfer",
+        "TS-5.5-isolatedDeclarations",
+        "TS-5.8-erasable"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-65",
+          "nodeId": "node-11-1",
+          "title": "TypeScript Release Notes",
+          "url": "https://www.typescriptlang.org/docs/handbook/release-notes/overview.html",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "reference",
+          "cost": "free",
+          "estimatedTime": "4 hours",
+          "platform": "typescriptlang.org",
+          "isRecommended": true
+        },
+        {
+          "id": "res-66",
+          "nodeId": "node-11-1",
+          "title": "TypeScript Blog (DevBlogs)",
+          "url": "https://devblogs.microsoft.com/typescript/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "self-paced",
+          "platform": "Microsoft DevBlogs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-67",
+          "nodeId": "node-11-1",
+          "title": "Dan Vanderkam — TS 5.5 and 5.6 Analysis",
+          "url": "https://effectivetypescript.com/2024/07/02/ts-55/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "30 min",
+          "platform": "Blog",
+          "isRecommended": false
+        },
+        {
+          "id": "res-84",
+          "nodeId": "node-11-1",
+          "title": "TypeScript in 2025 Retrospective (Vanderkam)",
+          "url": "https://effectivetypescript.com/2025/12/19/ts-2025/",
+          "type": "documentation",
+          "difficulty": "intermediate",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Blog",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "id": "node-11-2",
+      "title": "Upgrade Playbook",
+      "description": "Step-by-step process for upgrading TypeScript versions: canary branch, tooling sync, staged rollout.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 11,
+      "x": 560,
+      "y": 3310,
+      "width": 280,
+      "height": 80,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "opacity": 1,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-11-1"
+      ],
+      "estimatedHours": 3,
+      "keyConcepts": [
+        "canary-branch",
+        "breakage-assessment",
+        "tooling-sync",
+        "staged-rollout",
+        "rollback-plan"
+      ],
+      "isExpandable": true,
+      "subTopics": [
+        "RFC-template",
+        "team-changelog",
+        "version-pinning",
+        "CI-canary"
+      ],
+      "isMilestone": false,
+      "isOptional": false,
+      "isCheckpoint": false,
+      "resources": []
+    },
+    {
+      "id": "node-11-3",
+      "title": "TS 6.0 and 7.0 Preparation",
+      "description": "Preparing for strict-by-default (TS 6.0) and the Go compiler rewrite (TS 7.0 Project Corsa).",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 12,
+      "x": 1000,
+      "y": 3310,
+      "width": 280,
+      "height": 60,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "opacity": 0.8,
+        "badge": null
+      },
+      "prerequisites": [
+        "node-11-2"
+      ],
+      "estimatedHours": 2,
+      "keyConcepts": [
+        "strict-default",
+        "Go-rewrite",
+        "10x-speedup",
+        "API-migration"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": false,
+      "isOptional": true,
+      "isCheckpoint": false,
+      "resources": [
+        {
+          "id": "res-68",
+          "nodeId": "node-11-3",
+          "title": "Progress on TypeScript 7 (Microsoft)",
+          "url": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
+          "type": "documentation",
+          "difficulty": "advanced",
+          "format": "text",
+          "cost": "free",
+          "estimatedTime": "20 min",
+          "platform": "Microsoft DevBlogs",
+          "isRecommended": true
+        },
+        {
+          "id": "res-64",
+          "nodeId": "node-11-3",
+          "title": "A 10x Faster TypeScript (Anders Hejlsberg)",
+          "url": "https://www.youtube.com/watch?v=pNlq-EVld70",
+          "type": "course",
+          "difficulty": "intermediate",
+          "format": "video",
+          "cost": "free",
+          "estimatedTime": "45 min",
+          "platform": "YouTube",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-foundations",
+      "title": "✓ Foundations Complete",
+      "description": "You can read and write TypeScript with confidence, understand structural typing, narrowing, and compiler configuration.",
+      "difficulty": "beginner",
+      "sectionId": "section-foundations",
+      "displayOrder": 99,
+      "x": 120,
+      "y": 510,
+      "width": 280,
+      "height": 70,
+      "color": {
+        "bg": "#E8F5E9",
+        "border": "#4CAF50",
+        "text": "#2E7D32"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "✓"
+      },
+      "prerequisites": [
+        "node-1-5",
+        "node-2-4"
+      ],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "self-assessment",
+        "practice-exercises"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "resources": [
+        {
+          "id": "res-cp-1",
+          "nodeId": "checkpoint-foundations",
+          "title": "Foundations Self-Assessment Exercise",
+          "url": "#",
+          "type": "exercise",
+          "difficulty": "beginner",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "1 hour",
+          "platform": "Self-guided",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-type-depth",
+      "title": "✓ Type Depth Complete",
+      "description": "You can model complex domains, validate runtime data, and use generics effectively.",
+      "difficulty": "intermediate",
+      "sectionId": "section-type-depth",
+      "displayOrder": 99,
+      "x": 560,
+      "y": 1310,
+      "width": 280,
+      "height": 70,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "✓"
+      },
+      "prerequisites": [
+        "node-5-4",
+        "node-4-5"
+      ],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "self-assessment",
+        "mini-project"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "resources": [
+        {
+          "id": "res-cp-2",
+          "nodeId": "checkpoint-type-depth",
+          "title": "Type Modeling Mini-Project",
+          "url": "#",
+          "type": "exercise",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Self-guided",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-workflows",
+      "title": "✓ Workflows Complete",
+      "description": "You can build type-safe frontend and backend applications with end-to-end type sharing.",
+      "difficulty": "intermediate-advanced",
+      "sectionId": "section-backend",
+      "displayOrder": 99,
+      "x": 120,
+      "y": 2210,
+      "width": 280,
+      "height": 70,
+      "color": {
+        "bg": "#E8EAF6",
+        "border": "#5C6BC0",
+        "text": "#283593"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "✓"
+      },
+      "prerequisites": [
+        "node-6-6",
+        "node-7-6"
+      ],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "fullstack-project",
+        "integration-test"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "resources": [
+        {
+          "id": "res-cp-3",
+          "nodeId": "checkpoint-workflows",
+          "title": "Fullstack Type Safety Project",
+          "url": "#",
+          "type": "exercise",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "4 hours",
+          "platform": "Self-guided",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-tooling",
+      "title": "✓ Tooling Complete",
+      "description": "Your CI pipeline has type-checking, linting, type coverage gates, and fast feedback loops.",
+      "difficulty": "intermediate",
+      "sectionId": "section-tooling",
+      "displayOrder": 99,
+      "x": 560,
+      "y": 2710,
+      "width": 280,
+      "height": 70,
+      "color": {
+        "bg": "#E3F2FD",
+        "border": "#2196F3",
+        "text": "#1565C0"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "✓"
+      },
+      "prerequisites": [
+        "node-8-6"
+      ],
+      "estimatedHours": 1,
+      "keyConcepts": [
+        "CI-setup",
+        "pipeline-review"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "resources": [
+        {
+          "id": "res-cp-4",
+          "nodeId": "checkpoint-tooling",
+          "title": "CI Pipeline Setup Exercise",
+          "url": "#",
+          "type": "exercise",
+          "difficulty": "intermediate",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "2 hours",
+          "platform": "Self-guided",
+          "isRecommended": true
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-mastery",
+      "title": "🏆 TypeScript Mastery",
+      "description": "You are a TypeScript force multiplier: you write safer code faster, diagnose issues quickly, and scale codebases with confidence.",
+      "difficulty": "advanced",
+      "sectionId": "section-scale",
+      "displayOrder": 99,
+      "x": 120,
+      "y": 3410,
+      "width": 280,
+      "height": 70,
+      "color": {
+        "bg": "#FFF3E0",
+        "border": "#FF9800",
+        "text": "#E65100"
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": 3,
+        "opacity": 1,
+        "badge": "✓"
+      },
+      "prerequisites": [
+        "node-11-2",
+        "node-9-4",
+        "node-10-4"
+      ],
+      "estimatedHours": 0,
+      "keyConcepts": [
+        "mastery-assessment",
+        "portfolio-review"
+      ],
+      "isExpandable": false,
+      "subTopics": [],
+      "isMilestone": true,
+      "isOptional": false,
+      "isCheckpoint": true,
+      "resources": [
+        {
+          "id": "res-cp-5",
+          "nodeId": "checkpoint-mastery",
+          "title": "Mastery Portfolio Review",
+          "url": "#",
+          "type": "exercise",
+          "difficulty": "advanced",
+          "format": "interactive",
+          "cost": "free",
+          "estimatedTime": "3 hours",
+          "platform": "Self-guided",
+          "isRecommended": true
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "node-1-3",
+      "to": "node-1-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-3",
+      "to": "node-1-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-4",
+      "to": "node-1-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-3",
+      "to": "node-1-7",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-8",
+      "to": "node-2-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-2-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-2",
+      "to": "node-2-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-2-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-2",
+      "to": "node-2-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-5",
+      "to": "node-3-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-1",
+      "to": "node-3-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-3",
+      "to": "node-3-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-7",
+      "to": "node-3-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-3-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-6",
+      "to": "node-3-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-3-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-6",
+      "to": "node-3-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-2",
+      "to": "node-4-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-8",
+      "to": "node-4-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-4",
+      "to": "node-4-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-1",
+      "to": "node-4-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-1",
+      "to": "node-4-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-3",
+      "to": "node-4-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-4",
+      "to": "node-4-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-3",
+      "to": "node-5-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-5-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-5-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-5-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-1",
+      "to": "node-5-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-5-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-2",
+      "to": "node-5-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-5-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-2",
+      "to": "node-5-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-6-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-5",
+      "to": "node-6-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-1",
+      "to": "node-6-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-6-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-2",
+      "to": "node-6-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-1",
+      "to": "node-6-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-2",
+      "to": "node-6-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-1",
+      "to": "node-6-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-2",
+      "to": "node-6-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-3",
+      "to": "node-6-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-7-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-3",
+      "to": "node-7-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-7-1",
+      "to": "node-7-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-1",
+      "to": "node-7-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-7-1",
+      "to": "node-7-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-7-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-7-1",
+      "to": "node-7-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-5",
+      "to": "node-7-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-5",
+      "to": "node-7-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-7-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-3",
+      "to": "node-7-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-8-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-8-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-3",
+      "to": "node-8-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-1",
+      "to": "node-8-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-2",
+      "to": "node-8-6",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-9-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-1",
+      "to": "node-9-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-9-1",
+      "to": "node-9-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-5",
+      "to": "node-9-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-9-1",
+      "to": "node-9-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-3",
+      "to": "node-9-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-9-1",
+      "to": "node-9-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-5",
+      "to": "node-9-5",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-10-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-10-1",
+      "to": "node-10-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-3-4",
+      "to": "node-10-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-10-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-2",
+      "to": "node-10-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-6",
+      "to": "node-10-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-10-1",
+      "to": "node-10-4",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-1",
+      "to": "node-11-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-1",
+      "to": "node-11-1",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-11-1",
+      "to": "node-11-2",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-11-2",
+      "to": "node-11-3",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-1-5",
+      "to": "checkpoint-foundations",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-2-4",
+      "to": "checkpoint-foundations",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-5-4",
+      "to": "checkpoint-type-depth",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-4-5",
+      "to": "checkpoint-type-depth",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-6-6",
+      "to": "checkpoint-workflows",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-7-6",
+      "to": "checkpoint-workflows",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-8-6",
+      "to": "checkpoint-tooling",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-11-2",
+      "to": "checkpoint-mastery",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-9-4",
+      "to": "checkpoint-mastery",
+      "type": "prerequisite"
+    },
+    {
+      "from": "node-10-4",
+      "to": "checkpoint-mastery",
+      "type": "prerequisite"
+    }
+  ],
+  "learningPaths": {
+    "quickStart": {
+      "hours": "40-50",
+      "nodes": [
+        "node-1-1",
+        "node-1-2",
+        "node-1-3",
+        "node-1-4",
+        "node-1-5",
+        "node-1-6",
+        "node-1-8",
+        "node-2-1",
+        "node-3-1",
+        "node-3-3",
+        "node-4-1",
+        "node-4-3",
+        "node-8-3"
+      ]
+    },
+    "standard": {
+      "hours": "100-130",
+      "description": "Foundations + Type Depth + one workflow track + Tooling"
+    },
+    "comprehensive": {
+      "hours": "150-190",
+      "description": "All sections including both frontend and backend workflows"
+    },
+    "expert": {
+      "hours": "190-220",
+      "description": "Full roadmap including optional nodes and all exercises"
+    }
+  },
+  "progressTracking": {
+    "storageKey": "ts-roadmap-progress",
+    "features": [
+      "per-node-checkbox",
+      "section-progress-bar",
+      "overall-percentage",
+      "prereq-lock-visual",
+      "localStorage-persistence"
+    ]
+  },
+  "resourcePanel": {
+    "maxVisibleResources": 10,
+    "sortOrder": [
+      "recommended",
+      "course",
+      "exercise",
+      "documentation",
+      "book",
+      "repository",
+      "video"
+    ],
+    "badges": [
+      "difficulty",
+      "format",
+      "cost",
+      "estimatedTime"
+    ]
+  }
+}
