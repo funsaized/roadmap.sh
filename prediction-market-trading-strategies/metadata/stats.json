@@ -1,0 +1,95 @@
+{
+  "generated": "2026-04-01T12:59:00+02:00",
+  "totalAssets": 23,
+  "totalUniqueSources": 16,
+  "totalTargets": 6,
+  "totalTags": 81,
+  "totalEntities": 71,
+  "totalCrossReferences": 58,
+  "totalGaps": 21,
+  "assetsByTarget": {
+    "ai-agent-architectures": 8,
+    "cross-market-arbitrage": 3,
+    "behavioral-biases": 4,
+    "kelly-criterion": 3,
+    "platform-apis": 2,
+    "risk-management": 3
+  },
+  "assetsByType": {
+    "code/documentation": 4,
+    "article": 7,
+    "code": 3,
+    "documentation": 5,
+    "article/research": 3,
+    "paper": 1
+  },
+  "topTags": [
+    [
+      "PM-AMM",
+      5
+    ],
+    [
+      "liquidity-provision",
+      5
+    ],
+    [
+      "LVR-analysis",
+      5
+    ],
+    [
+      "Kelly-criterion",
+      5
+    ],
+    [
+      "smart-contracts",
+      4
+    ],
+    [
+      "LMSR",
+      4
+    ],
+    [
+      "position-sizing",
+      4
+    ],
+    [
+      "automated-market-maker",
+      3
+    ],
+    [
+      "risk-management",
+      3
+    ],
+    [
+      "position-management",
+      3
+    ],
+    [
+      "market-making-bot",
+      3
+    ],
+    [
+      "Python-implementation",
+      3
+    ],
+    [
+      "price-discovery",
+      2
+    ],
+    [
+      "mathematical-foundations",
+      2
+    ],
+    [
+      "inventory-risk",
+      2
+    ]
+  ],
+  "authorityBreakdown": {
+    "high": 19,
+    "medium": 3,
+    "low": 1
+  },
+  "synthesisDeliverables": 5,
+  "indexesCreated": 6
+}

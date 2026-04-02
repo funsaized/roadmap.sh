@@ -1,0 +1,29 @@
+# Master Asset Index
+
+**Total Assets:** 23 | **Unique Sources:** 16 | **Research Targets:** 6
+
+| # | Title | Source | Type | Authority | Relevance | Target | File |
+|---|-------|--------|------|-----------|-----------|--------|------|
+| 1 | Morpheus: PM-AMM Implementation on Aptos | github.com/Apostlex0 | code/documentation | high | high | AI Agent Architectures for Autonomous Trading | [apostlex0-prediction-market-amm.md](../assets/ai-agent-architectures/apostlex0-prediction-market-amm.md) |
+| 2 | LMSR: Logarithmic Market Scoring Rule | gensyn.ai/blog | article | high | high | AI Agent Architectures for Autonomous Trading | [gensyn-lmsr.md](../assets/ai-agent-architectures/gensyn-lmsr.md) |
+| 3 | What is Inventory Risk? | hummingbot.org | article | high | medium | AI Agent Architectures for Autonomous Trading | [hummingbot-inventory-risk.md](../assets/ai-agent-architectures/hummingbot-inventory-risk.md) |
+| 4 | Manifold Markets Market Maker Bot | github.com/manifoldmarkets | code | high | medium | AI Agent Architectures for Autonomous Trading | [manifold-market-maker.md](../assets/ai-agent-architectures/manifold-market-maker.md) |
+| 5 | The Math of Prediction Markets: Binary Options, Kelly Criterion, and CLOB Pricing | navnoorbawa.substack.com | article | high | high | AI Agent Architectures for Autonomous Trading | [navnoorbawa-prediction-markets-math.md](../assets/ai-agent-architectures/navnoorbawa-prediction-markets-math.md) |
+| 6 | Conditional Token Framework (CTF) Overview | docs.polymarket.com | documentation | high | high | AI Agent Architectures for Autonomous Trading | [polymarket-ctf-overview.md](../assets/ai-agent-architectures/polymarket-ctf-overview.md) |
+| 7 | Poly-Maker: Automated Market Making Bot for Polymarket | github.com/terrytrl100 | code/documentation | high | high | AI Agent Architectures for Autonomous Trading | [terrytrl100-polymarket-automated-mm.md](../assets/ai-agent-architectures/terrytrl100-polymarket-automated-mm.md) |
+| 8 | Poly-Maker: Automated Market Making Bot (Warproxxx Fork) | github.com/warproxxx | code/documentation | medium | high | AI Agent Architectures for Autonomous Trading | [warproxxx-poly-maker.md](../assets/ai-agent-architectures/warproxxx-poly-maker.md) |
+| 9 | LMSR Pricing and Arbitrage Conditions | Coding Nexus (Medium) | article | medium | medium (arbitrage context) | Cross-Market Arbitrage and Latency Strategies | [medium-lmsr-math.md](../assets/cross-market-arbitrage/medium-lmsr-math.md) |
+| 10 | Cross-Platform Arbitrage in Prediction Markets | navnoorbawa.substack.com | article | high | high (arbitrage focus) | Cross-Market Arbitrage and Latency Strategies | [navnoorbawa-prediction-markets-math.md](../assets/cross-market-arbitrage/navnoorbawa-prediction-markets-math.md) |
+| 11 | PM-AMM and Arbitrage Dynamics | Paradigm | article/research | high | high (arbitrage/LVR context) | Cross-Market Arbitrage and Latency Strategies | [paradigm-pm-amm.md](../assets/cross-market-arbitrage/paradigm-pm-amm.md) |
+| 12 | Prediction Market LMSR Demo | cdetrio (GitHub) | code | low | medium | Behavioral Biases and Exploitable Inefficiencies | [cdetrio-prediction-market-lmsr.md](../assets/behavioral-biases/cdetrio-prediction-market-lmsr.md) |
+| 13 | Conditional Tokens - Automated Market Makers (Gnosis) | Gnosis | code | high | medium | Behavioral Biases and Exploitable Inefficiencies | [gnosis-conditional-tokens-market-makers.md](../assets/behavioral-biases/gnosis-conditional-tokens-market-makers.md) |
+| 14 | How Polymarket Actually Prices Beliefs: The Math Behind LMSR | Coding Nexus (Medium) | article | medium | high | Behavioral Biases and Exploitable Inefficiencies | [medium-lmsr-math.md](../assets/behavioral-biases/medium-lmsr-math.md) |
+| 15 | pm-AMM: A Uniform AMM for Prediction Markets | Paradigm | article/research | high | high | Behavioral Biases and Exploitable Inefficiencies | [paradigm-pm-amm.md](../assets/behavioral-biases/paradigm-pm-amm.md) |
+| 16 | Application of the Kelly Criterion to Prediction Markets | arXiv | paper | high | high | Kelly Criterion Optimal Position Sizing | [arxiv-kelly-prediction-markets.md](../assets/kelly-criterion/arxiv-kelly-prediction-markets.md) |
+| 17 | Kelly Criterion — Polymarket Bot Implementation | Mintlify / joicodev | documentation | high | high | Kelly Criterion Optimal Position Sizing | [kelly-criterion-polymarket-bot.md](../assets/kelly-criterion/kelly-criterion-polymarket-bot.md) |
+| 18 | Prediction Market AMM with Kelly Criterion and Position Sizing | GitHub / Apostlex0 | code/documentation | high | high | Kelly Criterion Optimal Position Sizing | [prediction-market-amm-with-kelly.md](../assets/kelly-criterion/prediction-market-amm-with-kelly.md) |
+| 19 | Polymarket CLOB API Introduction | Polymarket Documentation | documentation | high | high | Platform APIs and Technical Implementation | [polymarket-clob-introduction.md](../assets/platform-apis/polymarket-clob-introduction.md) |
+| 20 | Polymarket Documentation Overview | Polymarket | documentation | high | high | Platform APIs and Technical Implementation | [polymarket-docs.md](../assets/platform-apis/polymarket-docs.md) |
+| 21 | Inventory Risk Management for Market Makers | hummingbot.org | article | high | high (risk management focus) | Risk Management for Prediction Market Portfolios | [hummingbot-inventory-risk.md](../assets/risk-management/hummingbot-inventory-risk.md) |
+| 22 | Kelly Criterion as Risk Management Framework | Mintlify / joicodev | documentation | high | high (risk management context) | Risk Management for Prediction Market Portfolios | [kelly-criterion-risk.md](../assets/risk-management/kelly-criterion-risk.md) |
+| 23 | PM-AMM LP Risk Management | Paradigm | article/research | high | high (LP risk context) | Risk Management for Prediction Market Portfolios | [paradigm-pm-amm-risk.md](../assets/risk-management/paradigm-pm-amm-risk.md) |

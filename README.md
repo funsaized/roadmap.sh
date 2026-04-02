@@ -43,6 +43,7 @@ The pipeline is defined in [`topic-mastery-roadmap/workflow.yml`](https://github
 
 | Roadmap | Topics | Resources | Est. Hours |
 |---------|--------|-----------|------------|
+| [Prediction Market Trading Strategies](prediction-market-trading-strategies/) | 150 | 23 | 300 |
 | [AI in Fullstack Healthcare Software](ai-fullstack-healthcare-software/) | 77 | 165 | 450 |
 | [Epic EHR Integrations in Software](epic-ehr-integration-software/) | 65 | 196 | 480 |
 | [Modern Python Flask API Development](modern-python-flask-api-development/) | 104 | 88 | 310 |
